@@ -1,7 +1,7 @@
 const weatherApiKey = '583d5fc73dace2b4c056745eac5da020';
 
 // Fetch the cities from the local JSON file
-fetch('../data/cities.json')
+fetch('data/cities.json')
   .then(response => response.json())
   .then(data => {
     const citySelect = document.getElementById("citySelect");

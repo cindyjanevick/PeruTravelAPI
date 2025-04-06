@@ -1,6 +1,6 @@
 // Function to load and insert the header
 function loadHeader() {
-  fetch('../partials/header.html')
+  fetch('./partials/header.html')
     .then(response => response.text())
     .then(data => {
       document.getElementById('header-container').innerHTML = data;
@@ -26,7 +26,7 @@ function addHamburgerToggleEvent() {
   
 // Function to load and insert the footer
 function loadFooter() {
-  fetch('../partials/footer.html')
+  fetch('./partials/footer.html')
     .then(response => response.text())
     .then(data => {
       document.getElementById('footer-container').innerHTML = data;
