@@ -250,6 +250,9 @@
   }  
 
   /* Weather widget container */
+.widgets{
+  display:grid;
+}
 .widget {
     background: var(--secondary-color);
     padding: 2rem;
@@ -257,6 +260,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     /*max-width: 500px;*/  /* Limit the width */
     margin: 0 auto;    /* Center the widget */
+    max-width: 100%;;
   }
   
   /* Weather result */
