@@ -1,0 +1,318 @@
+/* Define color variables */
+:root {
+    --primary-color: #0f151e;  /* Soft pastel blue */
+    --secondary-color: #f8f4e3; /* Soft pastel beige */
+    --accent-color: #f2a0a0;    /* Soft pastel pink */
+    --highlight-color: #144479; /* Soft pastel green */
+    --footer-bg-color: #144479; /* Bluish background for footer */
+    --text-color: #050501;      /* Dark text color for contrast */
+    --link-color: #d9dee4;      /* Color for links */
+    --footer-text-color: #fcfdf2; /* Lighter text color for footer */
+    --logo-border-color: #cccccc; /* Light border for the logo (optional) */
+  }
+  
+  /* General styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: var(--link-color);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header Styling */
+  .travel-header {
+    background-color: var(--primary-color);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .travel-header .logo img {
+    max-width: 120px;  /* Adjust logo size */
+    height: auto;
+  }
+  
+  .travel-header .nav-links {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px; /* Add space between nav links */
+  }
+  
+  .travel-header .nav-links a {
+    color: var(--link-color);
+    font-weight: bold;
+  }
+  
+  .travel-header .hamburger {
+    display: none;  /* Hide the hamburger menu by default */
+  }
+  
+  /* Hero */
+  .hero {
+    position: relative;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    filter: brightness(0.6);
+  }
+  
+  .hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    animation: fadeInDown 1s ease;
+  }
+  
+  /* Footer Styling */
+  .footer {
+    background-color: var(--highlight-color); /* Bluish background for footer */
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .footer-section {
+    flex: 1;
+  }
+  
+  .footer-section img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px;
+    border: 2px solid var(--logo-border-color); /* Optional border around the logo */
+  }
+  
+  .footer-section h4 {
+    color: var(--primary-color);
+  }
+  
+  .footer-section ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .footer-section ul li {
+    margin: 5px 0;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    color: var(--footer-text-color);
+  }
+  
+  /* Footer Text */
+  .footer-bottom p {
+    font-size: 14px;
+    color: var(--footer-text-color);
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    .travel-header {
+      padding: 15px;
+    }
+  
+    .travel-header .logo img {
+      max-width: 120px;
+    }
+  
+    .travel-header .nav-links {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;  /* Adjust gap between links */
+    }
+  
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .footer-section {
+      text-align: center;
+    }
+  
+    .footer-section ul li {
+      margin: 10px 0;
+    }
+  
+    .footer-bottom p {
+      font-size: 12px;
+    }
+  
+    /* Hero Banner */
+    .hero-banner {
+      height: 250px;  /* Further reduce height for mobile */
+    }
+  
+    .hero-banner h1 {
+      font-size: 1.8em;
+    }
+  
+    /* Initially hide the nav links on small screens */
+.travel-header .nav-links {
+    display: none;  /* Hide nav links by default */
+    /* position: absolute; */
+    top: 70px;  /* Adjust the position of the nav links */
+    left: 0;
+    width: 100%;
+    /*background-color: var(--primary-color);*/ /* Background for the nav */
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 10; /* Ensure it stays on top of other content */
+  }
+  
+  /* Show the nav links when the 'open' class is added */
+  .travel-header .nav-links.open {
+    display: flex; /* Show the links when opened */
+  }
+  
+  /* Style the hamburger button */
+  .travel-header .hamburger {
+    cursor: pointer;
+    font-size: 30px;
+    color: var(--primary-color); /* Color of the hamburger */
+    position: absolute;
+    top: 20px;  /* Adjust the button's vertical position */
+    right: 20px;  /* Adjust the button's horizontal position */
+    z-index: 20; /* Ensure the hamburger stays on top of other content */
+  }
+  
+  /* When the hamburger is clicked, change the icon to an 'X' */
+  .travel-header .hamburger.open {
+    transform: rotate(90deg); /* Rotate to form an 'X' */
+  }
+  
+  /* Style the nav links */
+  .travel-header .nav-links a {
+    color: white; /* Change the text color of the links */
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 0;
+    display: block;
+  }
+  
+  /* Mobile-friendly media query */
+  @media (max-width: 768px) {
+    /* Make sure the nav links are hidden by default */
+    .travel-header .nav-links {
+      display: none;
+    }
+  
+    /* Show the hamburger menu and set its size */
+    .travel-header .hamburger {
+      display: block;
+      font-size: 30px;
+      color: var(--link-color); /* Set your desired color */
+    }
+  
+    /* When the hamburger is clicked, display the nav links */
+    .travel-header .nav-links.open {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      padding: 20px;
+     
+     
+      top: 70px;  /* Adjust the vertical position */
+      left: 0;
+      width: 100%;
+      box-sizing: border-box;
+      z-index: 10; /* Ensure it stays on top */
+    }
+  }
+  }  
+
+  /* Weather widget container */
+.widget {
+    background: var(--secondary-color);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /*max-width: 500px;*/  /* Limit the width */
+    margin: 0 auto;    /* Center the widget */
+  }
+  
+  /* Weather result */
+  #weatherResult {
+    text-align: center; /* Center all the content inside the weather result */
+  }
+  
+  #weatherResult h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  #weatherResult p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  #weatherResult i {
+    font-size: 50px;
+    margin-bottom: 1rem;  /* Space between the icon and text */
+  }
+  
+  /* Weather icons in the forecast */
+  .forecast {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    justify-content: center; /* Center the forecast items */
+  }
+  
+  .forecast-day {
+    background: #ccc;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1;
+    min-width: 120px; /* Ensure cards don't get too small */
+  }
+  
+  .forecast-day i {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .forecast-day p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  /* Mobile Responsive */
+  @media (max-width: 768px) {
+    .forecast {
+      flex-direction: column;
+    }
+    .forecast-day {
+      margin-bottom: 1rem;
+    }
+  }
+  

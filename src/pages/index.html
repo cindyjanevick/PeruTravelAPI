@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Peru Travel Guide (Ñan Peru)</title>
+  <link rel="stylesheet" href="../css/main.css" />
+</head>
+
+<body>
+  <!-- Header will be dynamically injected -->
+  <div id="header-container"></div>
+
+  <section class="hero">
+    <img src="../assets/images/machupicchu-hero.jpg" alt="Machu Picchu" loading="lazy" />
+    <h1>Peru Travel Guide (Ñan Peru)</h1>
+  </section>
+
+  <main>
+    <section class="widgets">
+      <!-- Weather Widget -->
+      <div id="weather-widget" class="widget">
+        <h2>🌤️ Weather Info</h2>
+        <select id="citySelect">
+          <option value="">Select a city</option>
+        </select>
+        <div id="weatherResult"></div>
+      </div>
+      
+      </div>
+    
+      <!-- Currency Widget -->
+      <div id="currency-widget" class="widget">
+        <h2>💱 Currency Exchange</h2>
+        <select id="currencyFrom">
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="JPY">JPY</option>
+        </select>
+        <button id="convert">Convert to PEN</button>
+        <div id="currencyResult"></div>
+      </div>
+    </section>
+    
+
+    <section class="travel-planner">
+      <h2>📅 Travel Planner</h2>
+      <form id="plannerForm">
+        <label for="tripName">Trip Name:</label>
+        <input type="text" id="tripName" name="tripName" required />
+
+        <label for="startDate">Start Date:</label>
+        <input type="date" id="startDate" name="startDate" required />
+
+        <label for="endDate">End Date:</label>
+        <input type="date" id="endDate" name="endDate" required />
+
+        <label for="notes">Notes:</label>
+        <textarea id="notes" name="notes" rows="4"></textarea>
+
+        <button type="submit">Save Plan</button>
+      </form>
+    </section>
+
+    <section class="event-calendar">
+      <h2>📆 Events in Peru</h2>
+      <div id="calendar"></div>
+    </section>
+
+    <section class="travel-tips">
+      <h2>✈️ Travel Tips</h2>
+      <p>Always carry cash in small denominations, stay hydrated at high altitudes, and greet locals with a smile—"¡Hola!" goes a long way.</p>
+    </section>
+
+    <section class="top-destinations">
+      <h2>🏔️ Top Destinations</h2>
+      <div class="destinations-grid" id="destinationsGrid"></div>
+    </section>
+
+    <section class="daily-phrase">
+      <h2>📖 Daily Travel Phrase</h2>
+      <div id="phraseBox"></div>
+    </section>
+
+    <section class="recommendation-links">
+      <div class="block">
+        <a href="attractions.html">
+          <img src="assets/images/attractions.jpg" alt="Attractions" loading="lazy" />
+          <h3>🗺️ Attractions</h3>
+        </a>
+      </div>
+      <div class="block">
+        <a href="restaurants.html">
+          <img src="assets/images/restaurants.jpg" alt="Restaurants" loading="lazy" />
+          <h3>🍛 Restaurants</h3>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer will be dynamically injected -->
+  <div id="footer-container"></div>
+
+  <!-- JS scripts -->
+  <script src="../js/headerFooter.js" defer></script>
+  <script src="../js/nav.js" defer></script>
+  <script src ="../js/weather.js" defer></script>
+  <script src="../js/currency.js" defer></script>
+  <script src="../js/destinations.js" defer></script>
+  <script src="../js/phrase.js" defer></script>
+  <script src="../js/planner.js" defer></script>
+  <script src="../js/calendar.js" defer></script>
+</body>
+
+</html>
