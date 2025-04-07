@@ -75,12 +75,25 @@ document.getElementById("citySelect").addEventListener("change", function () {
 
 function updateTravelTips(city) {
   const tips = travelTips[city] || "No travel tips available for this city.";
-  const travelTipsElement = document.getElementById("travelTips");
-  travelTipsElement.innerHTML = `
-    <h4>💡 Travel Tips for ${city}:</h4>
-    <p>${tips}</p>
-  `;
+
+  // Clear previous tips
+  const tipsContainer = document.getElementById("travelTips");
+  tipsContainer.innerHTML = `<h4>Travel Tips for ${city}: 💡</h4>`;
+
+  // Create a list of travel tips
+  const tipsList = Array.isArray(tips) ? tips : [tips];  // Ensure tips is always an array
+  const ul = document.createElement("ul");  // Create a <ul> element
+
+  tipsList.forEach(tip => {
+    const li = document.createElement("li");  // Create a <li> element for each tip
+    li.textContent = tip;  // Set the text of the list item
+    ul.appendChild(li);  // Append the list item to the <ul>
+  });
+
+  // Append the <ul> to the tips container
+  tipsContainer.appendChild(ul);
 }
+
 
 
 
