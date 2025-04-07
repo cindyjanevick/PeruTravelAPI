@@ -18,30 +18,162 @@
   </section>
 
   <main>
-    <section class="widgets">
+    <section class="widgets-row">
       <!-- Weather Widget -->
-      <div id="weather-widget" class="widget">
+      <div id="weather-widget" class="widget weather-area">
         <h2>🌤️ Weather Info</h2>
         <select id="citySelect">
           <option value="">Select a city</option>
         </select>
-        <div id="weatherResult"></div>
-      </div>
-      
+        <div id="weatherResult"></div>  <!-- Current weather -->
+        
       </div>
     
-      <!-- Currency Widget -->
-      <div id="currency-widget" class="widget">
-        <h2>💱 Currency Exchange</h2>
-        <select id="currencyFrom">
-          <option value="USD">USD</option>
-          <option value="EUR">EUR</option>
-          <option value="JPY">JPY</option>
-        </select>
-        <button id="convert">Convert to PEN</button>
-        <div id="currencyResult"></div>
+      <div class="side-widgets">
+        <!-- Currency Widget -->
+        <div id="currencyExchange" class="widget currency-area">
+          <h3>💱 Currency Exchange</h3>
+    
+          <label for="currencySelect">Select Currency:</label>
+          <select id="currencySelect">
+            <option value="USD">USD - US Dollar</option>
+            <option value="EUR">EUR - Euro</option>
+            <option value="JPY">JPY - Japanese Yen</option>
+          </select>
+    
+          <label for="conversionType">Conversion Type:</label>
+          <select id="conversionType">
+            <option value="toPEN">Convert to PEN</option>
+            <option value="fromPEN">Convert from PEN</option>
+          </select>
+    
+          <label for="amountInput">Amount:</label>
+          <input type="number" id="amountInput" placeholder="Enter amount" />
+    
+          <button id="convertCurrency">Convert</button>
+    
+          <div id="conversionResult"></div>
+        </div>
+    
+        <!-- Travel Tips -->
+        <div class="widget travel-tips" id="travelTips">
+          <h3>✈️ Travel Tips</h3>
+          <ul id="tipsList">
+            <li>Always carry cash in small denominations.</li>
+            <li>Stay hydrated at high altitudes.</li>
+            <li>Greet locals with a smile—"¡Hola!" goes a long way.</li>
+          </ul>
+        </div>
+        
       </div>
     </section>
+    
+    <!-- NOW the Travel Planner comes below all -->
+    <section class="travel-planner">
+      <h2>📅 Travel Planner</h2>
+      <form id="plannerForm">
+        <label for="tripName">Trip Name:</label>
+        <input type="text" id="tripName" name="tripName" required />
+    
+        <label for="startDate">Start Date:</label>
+        <input type="date" id="startDate" name="startDate" required />
+    
+        <label for="endDate">End Date:</label>
+        <input type="date" id="endDate" name="endDate" required />
+    
+        <label for="notes">Notes:</label>
+        <textarea id="notes" name="notes" rows="4"></textarea>
+    
+        <button type="submit">Save Plan</button>
+      </form>
+    </section>
+    
+    <!-- Remaining sections -->
+    <section class="event-calendar">
+      <h2>📆 Events in Peru</h2>
+      <div id="calendar"></div>
+    </section>
+    
+    <section class="top-destinations">
+      <h2>🏔️ Top Destinations</h2>
+      <div class="destinations-grid" id="destinationsGrid"></div>
+    </section>
+    
+    <section class="daily-phrase">
+      <h2>📖 Daily Travel Phrase</h2>
+      <div id="phraseBox"></div>
+    </section>
+    
+    <section class="recommendation-links">
+      <div class="block">
+        <a href="attractions.html">
+          <img src="assets/images/attractions.jpg" alt="Attractions" loading="lazy" />
+          <h3>🗺️ Attractions</h3>
+        </a>
+      </div>
+      <div class="block">
+        <a href="restaurants.html">
+          <img src="assets/images/restaurants.jpg" alt="Restaurants" loading="lazy" />
+          <h3>🍛 Restaurants</h3>
+        </a>
+      </div>
+    </section>
+    
+
+<section class="travel-planner">
+  <h2>📅 Travel Planner</h2>
+  <form id="plannerForm">
+    <label for="tripName">Trip Name:</label>
+    <input type="text" id="tripName" name="tripName" required />
+
+    <label for="startDate">Start Date:</label>
+    <input type="date" id="startDate" name="startDate" required />
+
+    <label for="endDate">End Date:</label>
+    <input type="date" id="endDate" name="endDate" required />
+
+    <label for="notes">Notes:</label>
+    <textarea id="notes" name="notes" rows="4"></textarea>
+
+    <button type="submit">Save Plan</button>
+  </form>
+</section>
+
+<section class="travel-tips">
+  <h2>✈️ Travel Tips</h2>
+  <p>Always carry cash in small denominations, stay hydrated at high altitudes, and greet locals with a smile—"¡Hola!" goes a long way.</p>
+</section>
+
+<section class="event-calendar">
+  <h2>📆 Events in Peru</h2>
+  <div id="calendar"></div>
+</section>
+
+<section class="top-destinations">
+  <h2>🏔️ Top Destinations</h2>
+  <div class="destinations-grid" id="destinationsGrid"></div>
+</section>
+
+<section class="daily-phrase">
+  <h2>📖 Daily Travel Phrase</h2>
+  <div id="phraseBox"></div>
+</section>
+
+<section class="recommendation-links">
+  <div class="block">
+    <a href="attractions.html">
+      <img src="assets/images/attractions.jpg" alt="Attractions" loading="lazy" />
+      <h3>🗺️ Attractions</h3>
+    </a>
+  </div>
+  <div class="block">
+    <a href="restaurants.html">
+      <img src="assets/images/restaurants.jpg" alt="Restaurants" loading="lazy" />
+      <h3>🍛 Restaurants</h3>
+    </a>
+  </div>
+</section>
+
     
 
     <section class="travel-planner">
@@ -63,15 +195,18 @@
       </form>
     </section>
 
+    <section class="travel-tips">
+      <h2>✈️ Travel Tips</h2>
+      <p>Always carry cash in small denominations, stay hydrated at high altitudes, and greet locals with a smile—"¡Hola!" goes a long way.</p>
+    </section>
+
+
     <section class="event-calendar">
       <h2>📆 Events in Peru</h2>
       <div id="calendar"></div>
     </section>
 
-    <section class="travel-tips">
-      <h2>✈️ Travel Tips</h2>
-      <p>Always carry cash in small denominations, stay hydrated at high altitudes, and greet locals with a smile—"¡Hola!" goes a long way.</p>
-    </section>
+    
 
     <section class="top-destinations">
       <h2>🏔️ Top Destinations</h2>
@@ -103,14 +238,15 @@
   <div id="footer-container"></div>
 
   <!-- JS scripts -->
-  <script src="./js/headerFooter.js" defer></script>
-  <script src="./js/nav.js" defer></script>
-  <script src ="./js/weather.js" defer></script>
-  <script src="./js/currency.js" defer></script>
-  <script src="./js/destinations.js" defer></script>
-  <script src="./js/phrase.js" defer></script>
-  <script src="./js/planner.js" defer></script>
-  <script src="./js/calendar.js" defer></script>
+  <script type="module" src="./js/headerFooter.js" defer></script>
+  <script type="module" src="./js/nav.js" defer></script>
+  <script type="module" src="./js/weather.js" defer></script>
+  <script type="module" src="./js/currency.js" defer></script>
+  <script type="module" src="./js/destinations.js" defer></script>
+  <script type="module" src="./js/phrase.js" defer></script>
+  <script type="module" src="./js/planner.js" defer></script>
+  <script type="module" src="./js/calendar.js" defer></script>
+  
 </body>
 
 </html>

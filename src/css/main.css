@@ -319,4 +319,141 @@
       margin-bottom: 1rem;
     }
   }
+  #currency-widget {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 1.5rem;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    background-color: #fafafa;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   
+  .currency-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  
+  .currency-form select,
+  .currency-form input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    min-width: 120px;
+  }
+  
+  .currency-form button {
+    padding: 0.5rem 1rem;
+    background-color: #76c7a1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .currency-form button:hover {
+    background-color: #5da98a;
+  }
+  
+  #currencyResult {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    color: #333;
+  }
+
+  /* Container row */
+.widgets-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Weather takes ~70% */
+.weather-area {
+  flex: 2 1 65%;
+  padding: 1rem;
+  /* background-color: #f3f7ff; */
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Right column with currency + tips stacked */
+.side-widgets {
+  flex: 1 1 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Currency and tips individual styles */
+.currency-area,
+.travel-tips {
+  background-color: #fff8f0;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Travel tips heading spacing fix */
+.travel-tips h3 {
+  margin-top: 0;
+}
+
+/* Make inputs and selects full width inside currency box */
+#currencyExchange label,
+#currencyExchange select,
+#currencyExchange input,
+#currencyExchange button {
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+/* Align convert button nicely */
+#convertCurrency {
+  padding: 0.5rem;
+  background-color: #76c7a1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#convertCurrency:hover {
+  background-color: #5eaa87;
+}
+
+/* Conversion result spacing */
+#conversionResult {
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/*weather adjustment */
+.current-location-weather {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f0f4ff;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.current-location-weather h3 {
+  margin-bottom: 0.5rem;
+}
+.current-location-weather img {
+  width: 60px;
+}

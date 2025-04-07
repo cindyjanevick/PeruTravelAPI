@@ -3,18 +3,13 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   root: "./src",
-  base: "/",
-
-
+  base: "/peru-travel-api/",  // Adjusted base for Netlify deployment
 
   build: {
-    outDir: "../dist",
+    outDir: "./dist",
     rollupOptions: {
       input: {
         Index: resolve(__dirname, "src/index.html"),
-        
-        
-      
       },
     },
   },

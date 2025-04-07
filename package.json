@@ -1,5 +1,12 @@
 {
-  "dependencies": {
-    "vite": "^6.2.5"
+    "name": "peru-travel-api",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "vite",
+      "build": "vite build"
+    },
+    "dependencies": {
+      "vite": "^5.4.17"
+    }
   }
-}
+  
