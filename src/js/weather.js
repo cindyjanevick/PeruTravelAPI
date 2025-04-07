@@ -1,48 +1,6 @@
 const weatherApiKey = '583d5fc73dace2b4c056745eac5da020';
 
-// Travel Tips Data
-const travelTips = {
-  Lima: [
-    "Try local ceviche by the coast.",
-    "Take a walk along the Miraflores boardwalk.",
-    "Avoid rush hour traffic if using taxis."
-  ],
-  Cusco: [
-    "Acclimate for a day before going to Machu Picchu.",
-    "Visit San Pedro Market for authentic souvenirs.",
-    "Drink coca tea to help with the altitude."
-  ],
-  Arequipa: [
-    "Explore the Colca Canyon for stunning views.",
-    "Bring sunscreen—sun is strong at altitude.",
-    "Don’t miss the alpaca dishes and local cheeses."
-  ],
-  Piura: [
-    "Visit the beautiful Mancora beach for surfing and relaxation.",
-    "Try the local seafood, especially the ceviche and the 'seco de chabelo.'",
-    "Take a trip to the nearby Catacaos market to shop for traditional crafts and jewelry.",
-    "Explore the historical city center with its colonial architecture and charming squares."
-  ],
-  Ica: [
-    "Don't miss the Huacachina Oasis, where you can try sandboarding on the dunes.",
-    "Visit the famous Pisco wineries and enjoy a tasting of Peru's national drink.",
-    "Take a boat trip to the Ballestas Islands to see wildlife such as sea lions and penguins.",
-    "Explore the Nazca Lines from an aerial tour to marvel at these ancient geoglyphs."
-  ],
-  Chiclayo: [
-    "Visit the Lord of Sipán Tombs at the Royal Tombs of Sipán Museum for an insight into ancient Moche culture.",
-    "Try the 'ceviche de conchas negras' (black clam ceviche) – a local delicacy.",
-    "Explore the colorful Mercado Modelo for a taste of local life and food.",
-    "Take a day trip to the archaeological site of Tucume, known for its pyramid structures."
-  ],
-  Iquitos: [
-    "Explore the Amazon Rainforest by boat and immerse yourself in nature.",
-    "Take a guided jungle tour to learn about local flora and fauna.",
-    "Try local dishes like 'tacacho con cecina' (fried plantain and dried meat) and 'juanes' (rice and chicken wrapped in leaves).",
-    "Visit the famous Belén Market to see the variety of exotic products and traditional goods."
-  ]
 
-};
 
 // Fetch the cities from the local JSON file
 fetch('data/cities.json')
@@ -74,25 +32,39 @@ document.getElementById("citySelect").addEventListener("change", function () {
 
 
 function updateTravelTips(city) {
-  const tips = travelTips[city] || "No travel tips available for this city.";
+  fetch("data/citytips.json")
+    .then(response => {
+      if (!response.ok) {
+        throw new Error("Network response was not ok");
+      }
+      return response.json();
+    })
+    .then(data => {
+      const tips = data[city] || ["No travel tips available for this city."];
 
-  // Clear previous tips
-  const tipsContainer = document.getElementById("travelTips");
-  tipsContainer.innerHTML = `<h4>Travel Tips for ${city}: 💡</h4>`;
+      const tipsContainer = document.getElementById("travelTips");
+      tipsContainer.innerHTML = `<h4>💡 Travel Tips for ${city}:</h4>`;
 
-  // Create a list of travel tips
-  const tipsList = Array.isArray(tips) ? tips : [tips];  // Ensure tips is always an array
-  const ul = document.createElement("ul");  // Create a <ul> element
+      const ul = document.createElement("ul");
 
-  tipsList.forEach(tip => {
-    const li = document.createElement("li");  // Create a <li> element for each tip
-    li.textContent = tip;  // Set the text of the list item
-    ul.appendChild(li);  // Append the list item to the <ul>
-  });
+      tips.forEach(tip => {
+        const li = document.createElement("li");
+        li.textContent = tip;
+        ul.appendChild(li);
+      });
 
-  // Append the <ul> to the tips container
-  tipsContainer.appendChild(ul);
+      tipsContainer.appendChild(ul);
+    })
+    .catch(error => {
+      console.error("Failed to load travel tips:", error);
+      const tipsContainer = document.getElementById("travelTips");
+      tipsContainer.innerHTML = `
+        <h4>💡 Travel Tips for ${city}:</h4>
+        <p>Oops! Unable to load travel tips at the moment.</p>
+      `;
+    });
 }
+
 
 
 

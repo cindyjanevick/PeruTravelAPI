@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Peru Travel Guide (Ñan Peru)</title>
   <link rel="stylesheet" href="./css/main.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -18,7 +20,8 @@
   </section>
 
   <main>
-    <section class="widgets-row">
+    <div class="container">
+      <section class="widgets-row">
       <!-- Weather Widget -->
       <div id="weather-widget" class="widget weather-area">
         <h2>🌤️ Weather Info</h2>
@@ -68,6 +71,64 @@
       </div>
     </section>
     
+    <!-- TOP DESTINATIONS SECTION -->
+<section class="top-destinations">
+  <h2>🏔️ Top Destinations</h2>
+  <p class="tagline">Find your next adventure – explore Peru one city at a time!</p>
+
+  <div class="destinations-grid">
+    <!-- CARD EXAMPLE (repeat for each city) -->
+    <div class="destination-card">
+      <img src="./assets/images/cusco.webp" alt="Cusco">
+      <h3>Cusco</h3>
+      <a href="destination-info.html?city=Cusco" class="btn">Explore</a>
+    </div>
+
+    <div class="destination-card">
+      <img src="./assets/images/arequipa.webp" alt="Arequipa">
+      <h3>Arequipa</h3>
+      <a href="destination-info.html?city=Arequipa" class="btn">Explore</a>
+    </div>
+
+    <div class="destination-card">
+      <img src="./assets/images/lima.webp" alt="Lima">
+      <h3>Lima</h3>
+      <a href="destination-info.html?city=Lima" class="btn">Explore</a>
+    </div>
+
+    <div class="destination-card">
+      <img src="./assets/images/puno.webp" alt="Puno">
+      <h3>Puno</h3>
+      <a href="destination-info.html?city=Puno" class="btn">Explore</a>
+    </div>
+
+    <div class="destination-card">
+      <img src="./assets/images/trujillo.webp" alt="Trujillo">
+      <h3>Trujillo</h3>
+      <a href="destination-info.html?city=Trujillo" class="btn">Explore</a>
+    </div>
+
+    <div class="destination-card">
+      <img src="./assets/images/ica.webp" alt="Ica">
+      <h3>Ica</h3>
+      <a href="destination-info.html?city=Ica" class="btn">Explore</a>
+    </div>
+
+    <div class="destination-card">
+      <img src="./assets/images/cajamarca.webp" alt="Cajamarca">
+      <h3>Cajamarca</h3>
+      <a href="destination-info.html?city=Cajamarca" class="btn">Explore</a>
+    </div>
+
+    <div class="destination-card">
+      <img src="./assets/images/iquitos.webp" alt="Iquitos">
+      <h3>Iquitos</h3>
+      <a href="destination-info.html?city=Iquitos" class="btn">Explore</a>
+    </div>
+
+  </div>
+</section>
+
     <!-- NOW the Travel Planner comes below all -->
     <section class="travel-planner">
       <h2>📅 Travel Planner</h2>
@@ -139,10 +200,7 @@
   </form>
 </section>
 
-<section class="travel-tips">
-  <h2>✈️ Travel Tips</h2>
-  <p>Always carry cash in small denominations, stay hydrated at high altitudes, and greet locals with a smile—"¡Hola!" goes a long way.</p>
-</section>
+
 
 <section class="event-calendar">
   <h2>📆 Events in Peru</h2>
@@ -232,6 +290,7 @@
         </a>
       </div>
     </section>
+  </div> <!-- end .container -->
   </main>
 
   <!-- Footer will be dynamically injected -->
