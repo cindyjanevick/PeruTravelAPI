@@ -118,14 +118,23 @@ function fetchWeather(city) {
 
 function fetchForecast(city) {
   const url = `https://api.openweathermap.org/data/2.5/forecast?q=${city},PE&units=metric&appid=${weatherApiKey}`;
+  
   fetch(url)
     .then(res => res.json())
     .then(data => {
-      const forecastContainer = document.getElementById("forecastResult");  // Use separate container
-      forecastContainer.innerHTML = '';  // Clear previous forecast
+      if (data.cod !== "200") {
+        document.getElementById("weatherResult").innerHTML += "<p>Unable to fetch forecast data.</p>";
+        return;
+      }
+      
+      const forecastContainer = document.createElement("div");
+      forecastContainer.classList.add("forecast");
 
-      // Filter forecast to show 12:00 PM data each day (5 days)
+      // Filter forecast data to show only forecasts for midday (12:00)
       const forecastList = data.list.filter(item => item.dt_txt.includes("12:00:00"));
+
+      // Clear previous forecast data if any
+      forecastContainer.innerHTML = "";
 
       forecastList.forEach(item => {
         const day = new Date(item.dt_txt);
@@ -139,13 +148,17 @@ function fetchForecast(city) {
             <p>${item.main.temp.toFixed(1)}°C</p>
           </div>
         `;
+        
         forecastContainer.innerHTML += forecastCard;
       });
+
+      document.getElementById("weatherResult").appendChild(forecastContainer);
     })
     .catch(() => {
-      document.getElementById("forecastResult").innerHTML = "Error loading forecast.";
+      document.getElementById("weatherResult").innerHTML += "<p>Error loading forecast.</p>";
     });
 }
+
 
 
 window.addEventListener("load", () => {
