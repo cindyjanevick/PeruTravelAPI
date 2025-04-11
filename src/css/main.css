@@ -587,40 +587,41 @@
   text-decoration: underline;
 }
 
+/* recommendation links */
+
 .recommendation-links {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-  padding: 2rem;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 .recommendation-links .block {
-  width: 250px;
-  background: #f8f4e3;
-  border-radius: 1rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  background-color: #ffffff;
+  border-radius: 8px;
   overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
-  transition: transform 0.2s ease;
+  transition: transform 0.3s ease;
 }
 
 .recommendation-links .block:hover {
-  transform: scale(1.05);
+  transform: translateY(-5px);
 }
 
 .recommendation-links img {
   width: 100%;
-  height: 160px;
+  height: auto;
   object-fit: cover;
-  border-bottom: 4px solid #a3c6ff;
 }
 
 .recommendation-links h3 {
   padding: 1rem;
   font-size: 1.2rem;
-  color: #333;
+  color:#050501;
 }
+
 
 
 /* Calendar Styles */
@@ -772,12 +773,31 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 9999;
 }
+/* .modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 2rem;
+  width: 80%;
+  max-width: 600px;
+  margin: 5% auto;
+  border-radius: 8px;
+} */
 
 .modal .close {
   position: absolute;
   top: 10px;
   right: 10px;
-  font-size: 1.5rem;
+  font-size: 2rem;
   cursor: pointer;
 }
 
@@ -803,5 +823,171 @@
 
   .city-info .widget-row .widget {
     margin-bottom: 15px; /* Add space between widgets in the column */
+  }
+}
+/* city info */
+.city-info {
+  margin-bottom: 2rem;
+}
+
+.city-info p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.city-gallery {
+  margin-bottom: 2rem;
+}
+
+.carousel-container {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+.carousel img {
+  width: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
+  max-height: 400px;
+}
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  z-index: 10;
+}
+
+.prev-btn { left: 0; }
+.next-btn { right: 0; }
+
+
+/* Emergency Numbers */
+.emergency-numbers {
+  background-color: #f8d7da;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom:50px;
+}
+
+.emergency-numbers h3 {
+  margin-bottom: 1rem;
+}
+
+.emergency-numbers ul {
+  list-style: none;
+}
+
+.emergency-numbers li {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.emergency-numbers span {
+  font-weight: bold;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .city-info p {
+    font-size: 1rem;
+  }
+
+  .recommendation-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .recommendation-links .block {
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+
+  .city-gallery .carousel {
+    flex-direction: row;
+  }
+
+  .carousel img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .emergency-numbers {
+    font-size: 1rem;
+  }
+
+  .calendar-section {
+    margin-top: 2rem;
+  }
+}
+
+.city-info h1 {
+  font-size: 3rem;        /* Bigger title */
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+  position: relative;
+  animation: fadeInDown 1s ease-out;
+}
+
+/* Fancy text effect */
+.city-info h1::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #3498db;
+  margin: 0.5rem auto 0;
+  border-radius: 2px;
+}
+
+/* Animation */
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* For very small devices like phones in portrait mode */
+@media (max-width: 480px) {
+  .city-info h1 {
+    font-size: 1.8rem;
+  }
+
+  .city-info p {
+    font-size: 0.9rem;
+  }
+
+  .recommendation-links {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .recommendation-links .block {
+    width: 90%;
+  }
+
+  .carousel img {
+    width: 100%;
   }
 }

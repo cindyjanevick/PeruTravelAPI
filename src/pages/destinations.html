@@ -7,57 +7,83 @@
   <title>Destinations - Peru Travel Guide</title>
   <link rel="stylesheet" href="../css/main.css" />
   <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-  
 </head>
 
 <body>
   <!-- Header will be dynamically injected -->
   <div class="container" id="header-container"></div>
 
-<div class="container">
-  <section class="city-info">
-    <h1>Lima</h1>
-    <p>General info about Lima, Peru: a beautiful city with rich culture, amazing food, and fascinating history.</p>
-  </section>
+  <div class="container">
+    <!-- City Info Section -->
+    <section class="city-info">
+      <h1>Lima</h1>
+      <p>General info about Lima, Peru: a beautiful city with rich culture, amazing food, and fascinating history.</p>
+      
+      <p class="history"></p>
+      <p class="culture"></p>
+      <p class="weather"></p>
+    </section>
 
-  
-  <section class="recommendation-links">
-    <div class="block">
-      <a href="../pages/restaurants.html">
-        <img src="../assets/images/restaurants.webp" alt="Restaurants" loading="lazy" />
-        <h3>🍛 Restaurants</h3>
-      </a>
-    </div>
-    <div class="block">
-      <a href="../pages/attractions.html">
-        <img src="../assets/images/attractions.webp" alt="Attractions" loading="lazy" />
-        <h3>🗺️ Attractions</h3>
-      </a>
-    </div>
-    <div class="block">
-      <a href="../pages/recommendations.html">
-        <img src="../assets/images/recommendations.webp" alt="Recommendations" loading="lazy" />
-        <h3>🌟 Recommendations</h3>
-      </a>
-    </div>
-  </section>
+    <!-- City Photo Gallery -->
+    <section class="city-gallery">
+      <h2>Gallery</h2>
+      <div class="carousel-container">
+        <button class="prev-btn">&#10094;</button>
+        <div class="carousel">
+          <!-- Images will be inserted dynamically here -->
+        </div>
+        <button class="next-btn">&#10095;</button>
+      </div>
+    </section>
+    
 
-  <section class="calendar-section">
-    <h2>📅 Events in Lima</h2>
-    <div id="calendar"></div>
-  </section>
+    <section class="emergency-numbers">
+      <h2>Emergency Numbers</h2>
+      <ul>
+        <!-- Emergency numbers will be dynamically injected here -->
+      </ul>
+    </section>
 
-  <!-- Modal for event details -->
-  <div id="eventModal" class="modal">
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <h2 id="eventTitle"></h2>
-      <p id="eventDescription"></p>
-      <p><strong>Date:</strong> <span id="eventDate"></span></p>
-      <p><strong>Location:</strong> <span id="eventLocation"></span></p>
+    <!-- Recommendation Links Section -->
+    <section class="recommendation-links">
+      <div class="block">
+        <a href="../pages/restaurants.html">
+          <img src="../assets/images/restaurants.webp" alt="Restaurants" loading="lazy" />
+          <h3>🍛 Restaurants</h3>
+        </a>
+      </div>
+      <div class="block">
+        <a href="../pages/attractions.html">
+          <img src="../assets/images/attractions.webp" alt="Attractions" loading="lazy" />
+          <h3>🗺️ Attractions</h3>
+        </a>
+      </div>
+      <div class="block">
+        <a href="../pages/recommendations.html">
+          <img src="../assets/images/recommendations.webp" alt="Recommendations" loading="lazy" />
+          <h3>🌟 Recommendations</h3>
+        </a>
+      </div>
+    </section>
+
+    <!-- Calendar Section for City Events -->
+    <section class="calendar-section">
+      <h2>📅 Events in Lima</h2>
+      <div id="calendar"></div>
+    </section>
+
+    <!-- Modal for event details -->
+    <div id="eventModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="eventTitle"></h2>
+        <p id="eventDescription"></p>
+        <p><strong>Date:</strong> <span id="eventDate"></span></p>
+        <p><strong>Location:</strong> <span id="eventLocation"></span></p>
+      </div>
     </div>
   </div>
-</div>
+
   <!-- Footer will be dynamically injected -->
   <div class="container" id="footer-container"></div>
 

@@ -1,0 +1,107 @@
+{
+    "lima": {
+      "name": "Lima",
+      "description": "Lima is the capital city of Peru, known for its rich cultural heritage, colonial architecture, and delicious food.",
+      "history": "Founded in 1535, Lima has a fascinating history that includes Spanish colonization and the rise of Peru’s independence.",
+      "culture": "Lima’s culture blends native, colonial, and modern influences, with vibrant festivals and rich culinary traditions.",
+      "weather": "Lima has a mild desert climate with temperatures ranging from 17°C to 28°C.",
+      "images": ["lima1.webp", "lima2.webp", "lima3.webp"],
+      "emergency_numbers": {
+        "police": "105",
+        "fire": "116",
+        "ambulance": "106"
+      }
+    },
+    "trujillo": {
+      "name": "Trujillo",
+      "description": "Trujillo is known as the 'City of Eternal Spring' and is a northern coastal city full of colonial charm, traditional dance, and archeological wonders.",
+      "history": "Founded in 1534, Trujillo played a significant role in Peru’s independence and is near the ancient pre-Incan city of Chan Chan.",
+      "culture": "Trujillo is famous for the Marinera dance, elegant festivals, and a vibrant mix of colonial and Moche/Chimú heritage.",
+      "weather": "Trujillo has a mild desert climate, with temperatures ranging from 17°C to 25°C and very little rainfall.",
+      "images": ["trujillo1.webp", "trujillo2.webp", "trujillo3.webp"],
+      "emergency_numbers": {
+        "police": "105",
+        "fire": "116",
+        "ambulance": "106"
+      }
+    },
+    "ica": {
+      "name": "Ica",
+      "description": "Ica is a sunny desert city known for its vineyards, sand dunes, and the stunning Huacachina oasis.",
+      "history": "Once a center of the Paracas and Nazca cultures, Ica later became an important agricultural hub during colonial times.",
+      "culture": "Ica celebrates grape harvests with pisco festivals and parades, reflecting a rich viticulture and desert lifestyle.",
+      "weather": "Ica has a hot desert climate, with temperatures between 18°C and 32°C and sunny days almost year-round.",
+      "images": ["ica1.webp", "ica2.webp", "ica3.webp"],
+      "emergency_numbers": {
+        "police": "105",
+        "fire": "116",
+        "ambulance": "106"
+      }
+    },
+    "puno": {
+      "name": "Puno",
+      "description": "Puno is a high-altitude city located on the shores of Lake Titicaca, famous for its indigenous cultures and floating reed islands.",
+      "history": "Puno was a key region during the rise of the Inca Empire and remains a center of Aymara and Quechua traditions.",
+      "culture": "Known as Peru’s folkloric capital, Puno hosts colorful festivals like the Virgen de la Candelaria and maintains deep ancestral roots.",
+      "weather": "Puno has a cold highland climate, with temperatures between 2°C and 16°C and chilly nights throughout the year.",
+      "images": ["puno1.webp", "puno2.webp", "puno3.webp"],
+      "emergency_numbers": {
+        "police": "105",
+        "fire": "116",
+        "ambulance": "106"
+      }
+    },
+    "cajamarca": {
+      "name": "Cajamarca",
+      "description": "Cajamarca is a charming highland city known for its colonial architecture, thermal baths, and historical significance.",
+      "history": "Cajamarca was the site of the capture of Inca emperor Atahualpa by the Spanish in 1532, marking a pivotal point in Peru’s conquest.",
+      "culture": "The city hosts one of Peru's most traditional carnivals, blending Andean and Spanish customs in music, dance, and costumes.",
+      "weather": "Cajamarca has a mild highland climate, with temperatures averaging 6°C to 21°C and frequent sun during the day.",
+      "images": ["cajamarca1.webp", "cajamarca2.webp", "cajamarca3.webp"],
+      "emergency_numbers": {
+        "police": "105",
+        "fire": "116",
+        "ambulance": "106"
+      }
+    },
+    "arequipa": {
+      "name": "Arequipa",
+      "description": "Arequipa, known as the 'White City', is famous for its stunning colonial buildings made from white volcanic stone and its nearby volcanoes.",
+      "history": "Founded in 1540, Arequipa was a Spanish stronghold and has a rich republican history, now recognized as a UNESCO World Heritage site.",
+      "culture": "The city blends Spanish influence with local traditions, and its cuisine is among the most diverse and flavorful in Peru.",
+      "weather": "Arequipa has a temperate desert climate, with daytime temperatures between 10°C and 25°C, and lots of sunshine.",
+      "images": ["arequipa1.webp", "arequipa2.webp", "arequipa3.webp"],
+      "emergency_numbers": {
+        "police": "105",
+        "fire": "116",
+        "ambulance": "106"
+      }
+    },
+    "cusco": {
+      "name": "Cusco",
+      "description": "Cusco is the historic capital of the Inca Empire, full of archaeological ruins, colonial buildings, and pathways to Machu Picchu.",
+      "history": "Once the center of Incan civilization, Cusco became a Spanish colonial gem and is now a UNESCO World Heritage Site.",
+      "culture": "Cusco celebrates vibrant Andean traditions, colorful festivals, and Quechua heritage, all surrounded by mountain landscapes.",
+      "weather": "Cusco has a dry and mild climate, with temperatures from 5°C to 20°C, and colder nights due to the altitude.",
+      "images": ["cusco1.webp", "cusco2.webp", "cusco3.webp"],
+      "emergency_numbers": {
+        "police": "105",
+        "fire": "116",
+        "ambulance": "106"
+      }
+    },
+    "iquitos": {
+      "name": "Iquitos",
+      "description": "Iquitos is the largest city in the Peruvian Amazon, accessible only by river or air, and is known for its biodiversity and jungle excursions.",
+      "history": "Founded in the 18th century, Iquitos flourished during the rubber boom and developed a unique culture deep in the Amazon rainforest.",
+      "culture": "The city has a mix of jungle traditions, indigenous culture, and colonial roots, with lively markets and river life.",
+      "weather": "Iquitos has a hot and humid rainforest climate, with temperatures ranging from 23°C to 33°C and frequent rainfall.",
+      "images": ["iquitos1.webp", "iquitos2.webp", "iquitos3.webp"],
+      "emergency_numbers": {
+        "police": "105",
+        "fire": "116",
+        "ambulance": "106"
+      }
+    }
+  }
+  
