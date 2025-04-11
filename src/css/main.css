@@ -379,11 +379,22 @@
   /* Container row */
 .widgets-row {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   gap: 1.5rem;
   margin-bottom: 2rem;
 }
 
+/* 📱 Stack layout on small screens */
+@media (max-width: 768px) {
+  .widgets-row {
+    flex-direction: column;
+  }
+
+  .weather-area,
+  .side-widgets {
+    flex: 1 1 100%;
+  }
+}
 /* Weather takes ~70% */
 .weather-area {
   flex: 2 1 65%;
@@ -400,6 +411,7 @@
   flex-direction: column;
   gap: 1.5rem;
 }
+
 
 /* Currency and tips individual styles */
 .currency-area,
@@ -536,4 +548,260 @@
 
 .destination-card .btn:hover {
   background-color: #5aa783;
+}
+
+/* destination page */
+/* Cards for Attractions, Restaurants, Recommendations */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card a {
+  display: block;
+  text-decoration: none;
+  color: #76c7a1;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+.recommendation-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.recommendation-links .block {
+  width: 250px;
+  background: #f8f4e3;
+  border-radius: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.recommendation-links .block:hover {
+  transform: scale(1.05);
+}
+
+.recommendation-links img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-bottom: 4px solid #a3c6ff;
+}
+
+.recommendation-links h3 {
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+
+/* Calendar Styles */
+/* Calendar grid */
+.calendar {
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  font-family: 'Nunito', sans-serif;
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a3c6ff;
+  color: white;
+  padding: 1rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.calendar-header button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  background-color: #f8f4e3;
+  padding: 1rem;
+  gap: 8px;
+}
+
+.calendar-day {
+  background-color: #fff;
+  border: 1px solid #d9c1e1;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.calendar-day:hover {
+  background-color: #d9c1e1;
+  color: #fff;
+}
+
+.calendar-day.has-event {
+  background-color: #f2a0a0;
+  color: white;
+}
+
+/* On hover */
+.calendar-day.has-event:hover {
+  background-color: #d97b7b;
+  transform: scale(1.1);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+.month-title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #2b2b2b;
+}
+
+#calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  padding: 1rem;
+}
+
+.calendar-day {
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.calendar-day:hover {
+  transform: scale(1.05);
+  background-color: #e6f2ff;
+}
+
+.calendar-day.has-event {
+  background-color: #76c7a1;
+  color: white;
+  font-weight: bold;
+  border: 2px solid #3a8f73;
+}
+/* Month title spans full row */
+.full-span {
+  grid-column: span 7;
+}
+
+/* Weekday labels */
+.calendar-weekday {
+  background-color: transparent;
+  color: #444;
+  font-weight: 600;
+  text-align: center;
+  padding: 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+/* Empty day placeholders */
+.calendar-day.empty {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  cursor: default;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Optional: Responsive stacking for small screens */
+@media (max-width: 600px) {
+  #calendar {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+/* Modal */
+#eventModal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 500px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+}
+
+.modal .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.event-item {
+  margin-bottom: 20px;
+}
+
+.event-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.event-item p {
+  margin: 5px 0;
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 768px) {
+  .city-info .widget-row {
+    display: block !important; /* Switch to block on smaller screens */
+    width: 100%; /* Ensure it takes the full width */
+  }
+
+  .city-info .widget-row .widget {
+    margin-bottom: 15px; /* Add space between widgets in the column */
+  }
 }

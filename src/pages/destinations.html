@@ -4,36 +4,39 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lima - Peru Travel Guide</title>
+  <title>Destinations - Peru Travel Guide</title>
   <link rel="stylesheet" href="../css/main.css" />
   <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+  
 </head>
 
 <body>
   <!-- Header will be dynamically injected -->
-  <div id="header-container"></div>
+  <div class="container" id="header-container"></div>
 
+<div class="container">
   <section class="city-info">
     <h1>Lima</h1>
     <p>General info about Lima, Peru: a beautiful city with rich culture, amazing food, and fascinating history.</p>
   </section>
 
+  
   <section class="recommendation-links">
     <div class="block">
-      <a href="restaurants.html">
-        <img src="../assets/images/restaurants.jpg" alt="Restaurants" loading="lazy" />
+      <a href="../pages/restaurants.html">
+        <img src="../assets/images/restaurants.webp" alt="Restaurants" loading="lazy" />
         <h3>🍛 Restaurants</h3>
       </a>
     </div>
     <div class="block">
-      <a href="attractions.html">
-        <img src="../assets/images/attractions.jpg" alt="Attractions" loading="lazy" />
+      <a href="../pages/attractions.html">
+        <img src="../assets/images/attractions.webp" alt="Attractions" loading="lazy" />
         <h3>🗺️ Attractions</h3>
       </a>
     </div>
     <div class="block">
-      <a href="recommendations.html">
-        <img src="../assets/images/recommendations.jpg" alt="Recommendations" loading="lazy" />
+      <a href="../pages/recommendations.html">
+        <img src="../assets/images/recommendations.webp" alt="Recommendations" loading="lazy" />
         <h3>🌟 Recommendations</h3>
       </a>
     </div>
@@ -54,12 +57,13 @@
       <p><strong>Location:</strong> <span id="eventLocation"></span></p>
     </div>
   </div>
-
+</div>
   <!-- Footer will be dynamically injected -->
-  <div id="footer-container"></div>
+  <div class="container" id="footer-container"></div>
 
   <script type="module" src="../js/headerFooter.js" defer></script>
   <script type="module" src="../js/nav.js" defer></script>
+  <script type="module" src="../js/destinations.js" defer></script>
   <script type="module" src="../js/calendar.js" defer></script>
   <script type="module" src="../js/events.js" defer></script>
 </body>

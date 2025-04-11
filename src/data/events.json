@@ -1,0 +1,721 @@
+{
+  "lima": {
+      "1": [
+        { "date": 15, "title": "New Year’s Beach Party", "description": "Celebrate the new year by the ocean!", "location": "Costa Verde" }
+      ],
+      "2": [
+        { "date": 14, "title": "Valentine’s Day Concert", "description": "Romantic music under the stars.", "location": "Parque del Amor" }
+      ],
+      "3": [
+        { "date": 21, "title": "Art Walk", "description": "Discover local art in downtown galleries.", "location": "Barranco" }
+      ],
+      "4": [
+        { "date": 6, "title": "Lima Food Fest", "description": "Food everywhere!", "location": "Miraflores Park" },
+        { "date": 11, "title": "Mother's Day Parade", "description": "Celebrate moms!", "location": "Plaza Mayor" }
+      ],
+      "5": [
+        { "date": 8, "title": "Film Festival", "description": "International cinema.", "location": "Cineplanet" }
+      ],
+      "6": [
+        { "date": 24, "title": "Inti Raymi Celebration", "description": "Inca Sun Festival reenactment.", "location": "Plaza de Armas" }
+      ],
+      "7": [
+        { "date": 28, "title": "Independence Day Parade", "description": "Celebrate Peru's independence!", "location": "Av. Brasil" }
+      ],
+      "8": [
+        { "date": 15, "title": "Lima Book Fair", "description": "Meet authors & find new reads.", "location": "Parque de la Exposición" }
+      ],
+      "9": [
+        { "date": 4, "title": "Tech & Innovation Expo", "description": "Future tech showcase.", "location": "Jockey Plaza" }
+      ],
+      "10": [
+        { "date": 31, "title": "Halloween in the Park", "description": "Costumes and treats!", "location": "Circuito Mágico del Agua" }
+      ],
+      "11": [
+        { "date": 5, "title": "Gastronomy Congress", "description": "Culinary talks and tasting.", "location": "San Isidro" }
+      ],
+      "12": [
+        { "date": 24, "title": "Christmas Market", "description": "Shop and enjoy the holiday vibe.", "location": "Miraflores Central Park" }
+      ]
+    },
+  "arequipa": {
+      "1": [
+        { "date": 10, "title": "New Year Fireworks", "description": "Sky lit up with joy!", "location": "Plaza de Armas" }
+      ],
+      "2": [
+        { "date": 20, "title": "Summer Crafts Fair", "description": "Handmade goods and snacks.", "location": "Yanahuara" }
+      ],
+      "3": [
+        { "date": 5, "title": "Folklore Dance Night", "description": "Local groups perform traditional dances.", "location": "Municipal Theater" }
+      ],
+      "4": [
+        { "date": 3, "title": "Cultural Festival", "description": "Music & art.", "location": "Plaza de Armas" },
+        { "date": 4, "title": "Canyon Hike", "description": "Colca adventure.", "location": "Colca Canyon" }
+      ],
+      "5": [
+        { "date": 12, "title": "Arequipa Film Fest", "description": "Films from around the world.", "location": "Cine Arequipa" }
+      ],
+      "6": [
+        { "date": 18, "title": "Winter Music Jam", "description": "Live music and hot chocolate!", "location": "Selva Alegre Park" }
+      ],
+      "7": [
+        { "date": 15, "title": "Independence March", "description": "A proud parade!", "location": "Downtown" }
+      ],
+      "8": [
+        { "date": 15, "title": "Anniversary Fireworks", "description": "Arequipa celebrates its foundation!", "location": "Plaza de Armas" }
+      ],
+      "9": [
+        { "date": 9, "title": "Poetry Night", "description": "Readings from local poets.", "location": "Library Hall" }
+      ],
+      "10": [
+        { "date": 31, "title": "Spooky Tour", "description": "Ghost stories in historic buildings.", "location": "Old Monastery" }
+      ],
+      "11": [
+        { "date": 22, "title": "Andean Fashion Show", "description": "Modern looks inspired by tradition.", "location": "Cultural Center" }
+      ],
+      "12": [
+        { "date": 25, "title": "Christmas Concert", "description": "Choir and live instruments.", "location": "Cathedral" }
+      ]
+    },
+   
+  "cusco": {
+        "1": [
+          {
+            "date": 6,
+            "title": "Bajada de Reyes",
+            "description": "Traditional Andean celebration marking the arrival of the Three Kings.",
+            "location": "Plaza de Armas"
+          }
+        ],
+        "2": [
+          {
+            "date": 14,
+            "title": "Carnival of Cusco",
+            "description": "Colorful water fights and dance performances throughout the city.",
+            "location": "Cusco Historic Center"
+          }
+        ],
+        "3": [
+          {
+            "date": 21,
+            "title": "Autumn Equinox Ceremony",
+            "description": "A symbolic ceremony held at ancient sites marking seasonal change.",
+            "location": "Sacsayhuamán"
+          }
+        ],
+        "4": [
+          {
+            "date": 6,
+            "title": "Semana Santa Procession",
+            "description": "Holy Week celebrations with religious processions and traditional food.",
+            "location": "Main Cathedral"
+          }
+        ],
+        "5": [
+          {
+            "date": 1,
+            "title": "May Day Celebration",
+            "description": "Workers' Day festivities with local music and artisan markets.",
+            "location": "Plaza Regocijo"
+          }
+        ],
+        "6": [
+          {
+            "date": 24,
+            "title": "Inti Raymi Festival",
+            "description": "Inca Sun Festival with theatrical performances and ancient rituals.",
+            "location": "Sacsayhuamán"
+          }
+        ],
+        "7": [
+          {
+            "date": 7,
+            "title": "Qoyllur Rit’i Pilgrimage",
+            "description": "A spiritual trek blending Andean and Christian traditions.",
+            "location": "Sinakara Glacier"
+          }
+        ],
+        "8": [
+          {
+            "date": 15,
+            "title": "Assumption of the Virgin",
+            "description": "Colorful Catholic procession with Andean influences.",
+            "location": "Cusco Cathedral"
+          }
+        ],
+        "9": [
+          {
+            "date": 13,
+            "title": "Señor de Huanca Festival",
+            "description": "Pilgrims walk to the sanctuary of Señor de Huanca.",
+            "location": "San Salvador"
+          }
+        ],
+        "10": [
+          {
+            "date": 31,
+            "title": "Todos los Santos",
+            "description": "Peruvian All Saints’ Day with flower offerings and family feasts.",
+            "location": "City cemeteries"
+          }
+        ],
+        "11": [
+          {
+            "date": 5,
+            "title": "Cusco Coffee Fair",
+            "description": "Celebrate local coffee growers with tastings and barista competitions.",
+            "location": "Cusco Convention Center"
+          }
+        ],
+        "12": [
+          {
+            "date": 24,
+            "title": "Santurantikuy Fair",
+            "description": "Traditional Christmas Eve market selling hand-carved nativity figures.",
+            "location": "Plaza de Armas"
+          }
+        ]
+      },
+  "puno": {
+        "1": [
+          {
+            "date": 18,
+            "title": "Pre-Candelaria Rehearsals",
+            "description": "Dance troupes begin preparing for the February festival.",
+            "location": "Various neighborhoods"
+          }
+        ],
+        "2": [
+          {
+            "date": 2,
+            "title": "Virgen de la Candelaria",
+            "description": "Huge folkloric festival blending Catholic and Aymara traditions.",
+            "location": "Puno city center"
+          }
+        ],
+        "3": [
+          {
+            "date": 15,
+            "title": "Andean New Year Prep",
+            "description": "Early celebrations leading up to the Andean New Year in June.",
+            "location": "Lake Titicaca shoreline"
+          }
+        ],
+        "4": [
+          {
+            "date": 9,
+            "title": "Semana Santa Processions",
+            "description": "Religious parades with music and cultural displays.",
+            "location": "Cathedral of Puno"
+          }
+        ],
+        "5": [
+          {
+            "date": 22,
+            "title": "Floating Island Cultural Show",
+            "description": "Artisan exhibits and storytelling from the Uros people.",
+            "location": "Uros Islands"
+          }
+        ],
+        "6": [
+          {
+            "date": 21,
+            "title": "Andean New Year",
+            "description": "Aymara New Year celebration with rituals and offerings to Pachamama.",
+            "location": "Isla Esteves"
+          }
+        ],
+        "7": [
+          {
+            "date": 28,
+            "title": "Fiestas Patrias in Puno",
+            "description": "Peruvian Independence Day with music, parades, and fireworks.",
+            "location": "Puno Main Square"
+          }
+        ],
+        "8": [
+          {
+            "date": 15,
+            "title": "Fiesta de la Virgen Asunta",
+            "description": "Religious devotion and folkloric dances in rural towns near Puno.",
+            "location": "Chucuito"
+          }
+        ],
+        "9": [
+          {
+            "date": 5,
+            "title": "Puno Folklore Week",
+            "description": "Week-long celebration of dance, music, and indigenous heritage.",
+            "location": "Regional Stadium"
+          }
+        ],
+        "10": [
+          {
+            "date": 1,
+            "title": "Puno Anniversary Month Begins",
+            "description": "Month-long lead-up to Puno’s founding celebration.",
+            "location": "Various sites in Puno"
+          }
+        ],
+        "11": [
+          {
+            "date": 4,
+            "title": "Puno Day",
+            "description": "Celebrates the legendary origin of the Inca Empire with re-enactments.",
+            "location": "Lake Titicaca and Main Plaza"
+          }
+        ],
+        "12": [
+          {
+            "date": 16,
+            "title": "Christmas Artisan Market",
+            "description": "Shop for handmade gifts and ornaments by local artisans.",
+            "location": "Plaza del Faro"
+          }
+        ]
+      },
+  "trujillo": {
+        "1": [
+          {
+            "date": 6,
+            "title": "Festival de la Marinera (Start)",
+            "description": "Begins the national Marinera dance competition in Trujillo.",
+            "location": "Coliseo Gran Chimú"
+          }
+        ],
+        "2": [
+          {
+            "date": 2,
+            "title": "Marinera Grand Finale",
+            "description": "Final round of the famous Marinera dance competition.",
+            "location": "Coliseo Gran Chimú"
+          }
+        ],
+        "3": [
+          {
+            "date": 18,
+            "title": "Trujillo Gourmet Week",
+            "description": "Showcasing northern Peruvian cuisine from local chefs.",
+            "location": "Centro Histórico"
+          }
+        ],
+        "4": [
+          {
+            "date": 2,
+            "title": "Semana Santa Procession",
+            "description": "Religious parades through the city’s colonial streets.",
+            "location": "Plaza de Armas"
+          },
+          {
+            "date": 14,
+            "title": "Poetry Night at Casa de la Emancipación",
+            "description": "Local poets share readings during Trujillo's cultural month.",
+            "location": "Casa de la Emancipación"
+          },
+          {
+            "date": 27,
+            "title": "Sun and Culture Festival",
+            "description": "Dance and music near the ancient ruins of Chan Chan.",
+            "location": "Huanchaco & Chan Chan"
+          }
+        ],
+        "5": [
+          {
+            "date": 20,
+            "title": "International Book Fair",
+            "description": "Writers and publishers gather for book presentations and talks.",
+            "location": "Plaza Mayor"
+          }
+        ],
+        "6": [
+          {
+            "date": 24,
+            "title": "San Juan Festival",
+            "description": "Celebrates Saint John with food, music, and river rituals.",
+            "location": "Trujillo River"
+          }
+        ],
+        "7": [
+          {
+            "date": 28,
+            "title": "Fiestas Patrias Parade",
+            "description": "Independence Day celebration with military parades.",
+            "location": "Plaza de Armas"
+          }
+        ],
+        "8": [
+          {
+            "date": 5,
+            "title": "Gastronomic Fest: Sabores del Norte",
+            "description": "Food fair featuring northern coastal dishes.",
+            "location": "Explanada Mochica"
+          }
+        ],
+        "9": [
+          {
+            "date": 23,
+            "title": "Spring Festival Parade",
+            "description": "Colorful floats, flowers, and beauty queens in full bloom.",
+            "location": "Av. España"
+          }
+        ],
+        "10": [
+          {
+            "date": 12,
+            "title": "Jazz en Trujillo",
+            "description": "Local and international jazz musicians perform across venues.",
+            "location": "Teatro Municipal"
+          }
+        ],
+        "11": [
+          {
+            "date": 10,
+            "title": "Archaeology Symposium",
+            "description": "Lectures and tours focused on Moche and Chimú cultures.",
+            "location": "Museo de Sitio Chan Chan"
+          }
+        ],
+        "12": [
+          {
+            "date": 15,
+            "title": "Christmas Lights Festival",
+            "description": "Holiday lights and caroling through the city center.",
+            "location": "Centro Histórico"
+          }
+        ]
+      },
+  "ica": {
+        "1": [
+          {
+            "date": 4,
+            "title": "Pisco Vineyard Tours Begin",
+            "description": "Start of the season for visiting local pisco producers.",
+            "location": "Ruta del Pisco"
+          }
+        ],
+        "2": [
+          {
+            "date": 14,
+            "title": "Verano en Huacachina",
+            "description": "Summer sandboarding events and live music by the oasis.",
+            "location": "Laguna de Huacachina"
+          }
+        ],
+        "3": [
+          {
+            "date": 19,
+            "title": "International Grape Harvest",
+            "description": "Celebration of wine and pisco grape harvesting season.",
+            "location": "Viñedos de Ica"
+          }
+        ],
+        "4": [
+          {
+            "date": 5,
+            "title": "Festival de la Vendimia",
+            "description": "The main harvest festival with grape stomping, parades, and wine tasting.",
+            "location": "Campo Ferial de Ica"
+          },
+          {
+            "date": 9,
+            "title": "Miss Vendimia Beauty Pageant",
+            "description": "Pageant to crown the queen of the grape harvest.",
+            "location": "Plaza de Armas"
+          },
+          {
+            "date": 13,
+            "title": "Artisanal Wine & Pisco Expo",
+            "description": "Local distillers exhibit handcrafted pisco and wine.",
+            "location": "Plaza del Sol"
+          }
+        ],
+        "5": [
+          {
+            "date": 1,
+            "title": "Labor Day Celebrations",
+            "description": "Live music and dance honoring workers across Ica.",
+            "location": "Ica Central Park"
+          }
+        ],
+        "6": [
+          {
+            "date": 21,
+            "title": "Winter Solstice Ceremony",
+            "description": "Andean ceremony celebrating seasonal change.",
+            "location": "Tambo Colorado"
+          }
+        ],
+        "7": [
+          {
+            "date": 28,
+            "title": "Fiestas Patrias Parade",
+            "description": "Parades, fireworks, and civic events for Independence Day.",
+            "location": "Plaza de Armas"
+          }
+        ],
+        "8": [
+          {
+            "date": 6,
+            "title": "Adventure Sports Weekend",
+            "description": "Dune buggy races and sandboarding in Huacachina.",
+            "location": "Dunas de Huacachina"
+          }
+        ],
+        "9": [
+          {
+            "date": 17,
+            "title": "Pisco Route Fair",
+            "description": "Tour and tasting from Ica's top pisco producers.",
+            "location": "Bodega Tacama"
+          }
+        ],
+        "10": [
+          {
+            "date": 29,
+            "title": "Señor de Luren Pilgrimage",
+            "description": "Massive religious procession honoring Ica’s patron.",
+            "location": "Santuario Señor de Luren"
+          }
+        ],
+        "11": [
+          {
+            "date": 8,
+            "title": "Ica Cultural Week",
+            "description": "Dance, music, and traditional foods featured throughout the city.",
+            "location": "Casa de la Cultura"
+          }
+        ],
+        "12": [
+          {
+            "date": 24,
+            "title": "Christmas in the Dunes",
+            "description": "Caroling, food fairs, and dune-side nativity displays.",
+            "location": "Huacachina"
+          }
+        ]
+      },
+  "cajamarca": {
+    "1": [
+      {
+        "date": 6,
+        "title": "Andean Music Night",
+        "description": "Celebration of traditional Cajamarcan music and instruments.",
+        "location": "Teatro Cajamarca"
+      }
+    ],
+    "2": [
+      {
+        "date": 10,
+        "title": "Carnaval Cajamarquino (Start)",
+        "description": "The most famous carnival in Peru, full of color, music, and fun.",
+        "location": "Centro Histórico"
+      }
+    ],
+    "3": [
+      {
+        "date": 1,
+        "title": "Carnaval Closing Parade",
+        "description": "The final event of Carnival season with elaborate costumes and floats.",
+        "location": "Plaza de Armas"
+      }
+    ],
+    "4": [
+      {
+        "date": 4,
+        "title": "Semana Santa Procession",
+        "description": "Holy Week with traditional processions and local customs.",
+        "location": "Catedral de Cajamarca"
+      },
+      {
+        "date": 11,
+        "title": "Qhapac Ñan Lecture Series",
+        "description": "Talks and exhibits on the Inca road network and local culture.",
+        "location": "Museo de Cajamarca"
+      },
+      {
+        "date": 28,
+        "title": "Festival de la Tierra",
+        "description": "Celebration honoring Mother Earth with dances and native rituals.",
+        "location": "Ransom Room / Cuarto del Rescate"
+      }
+    ],
+    "5": [
+      {
+        "date": 14,
+        "title": "Artisan Fair",
+        "description": "Showcase of local ceramics, weavings, and handmade goods.",
+        "location": "Plaza San Francisco"
+      }
+    ],
+    "6": [
+      {
+        "date": 23,
+        "title": "Inti Raymi Cajamarca",
+        "description": "Sun Festival with re-enactments and Andean performances.",
+        "location": "Santa Apolonia Hill"
+      }
+    ],
+    "7": [
+      {
+        "date": 28,
+        "title": "Fiestas Patrias Parade",
+        "description": "National holiday celebrations with traditional dances and food.",
+        "location": "Centro de la Ciudad"
+      }
+    ],
+    "8": [
+      {
+        "date": 12,
+        "title": "Cajamarca Film Week",
+        "description": "Film screenings of local and national cinema.",
+        "location": "Casa de la Cultura"
+      }
+    ],
+    "9": [
+      {
+        "date": 9,
+        "title": "Mountain Music Festival",
+        "description": "Live concerts featuring regional folk and fusion music.",
+        "location": "Mirador Colina Santa Apolonia"
+      }
+    ],
+    "10": [
+      {
+        "date": 19,
+        "title": "Heritage Day",
+        "description": "Free tours and cultural events at Cajamarca’s historic landmarks.",
+        "location": "Museos y Monumentos"
+      }
+    ],
+    "11": [
+      {
+        "date": 3,
+        "title": "Festival del Pan y Queso",
+        "description": "Bread and cheese fair highlighting local culinary traditions.",
+        "location": "Mercado Central"
+      }
+    ],
+    "12": [
+      {
+        "date": 20,
+        "title": "Navidad en Cajamarca",
+        "description": "Christmas lights, nativity scenes, and concerts.",
+        "location": "Plaza de Armas"
+      }
+    ]
+  },
+  "iquitos": {
+    "1": [
+      {
+        "date": 7,
+        "title": "Amazon Rainforest Tour Kickoff",
+        "description": "Start of peak season for jungle tours and eco-tourism.",
+        "location": "Pacaya Samiria Reserve"
+      }
+    ],
+    "2": [
+      {
+        "date": 16,
+        "title": "Fiesta de San Sebastián",
+        "description": "Traditional Amazonian feast honoring Saint Sebastian.",
+        "location": "Belen District"
+      }
+    ],
+    "3": [
+      {
+        "date": 25,
+        "title": "Iquitos Jungle Film Festival",
+        "description": "Films and documentaries focused on Amazonian culture and wildlife.",
+        "location": "Casa Fitzcarrald"
+      }
+    ],
+    "4": [
+      {
+        "date": 3,
+        "title": "Semana Santa Fluvial Parade",
+        "description": "Holy Week celebrated with colorful boat processions on the Amazon River.",
+        "location": "Puerto de Iquitos"
+      },
+      {
+        "date": 17,
+        "title": "Amazonía Music Fest",
+        "description": "Regional music and dance performances celebrating river culture.",
+        "location": "Plaza 28 de Julio"
+      },
+      {
+        "date": 24,
+        "title": "Eco Feria Iquitos",
+        "description": "Environmental fair promoting sustainable jungle practices and eco-products.",
+        "location": "Malecón Tarapacá"
+      }
+    ],
+    "5": [
+      {
+        "date": 20,
+        "title": "Festival del Caimán",
+        "description": "A traditional Amazonian celebration with caiman-shaped floats and food.",
+        "location": "Belen Market Area"
+      }
+    ],
+    "6": [
+      {
+        "date": 21,
+        "title": "Solstice Ceremony with Shamanic Blessings",
+        "description": "Spiritual and cultural rituals led by local shamans.",
+        "location": "Community of San Rafael"
+      }
+    ],
+    "7": [
+      {
+        "date": 28,
+        "title": "Fiestas Patrias River Parade",
+        "description": "Boats and barges parade through the Amazon in celebration of Independence Day.",
+        "location": "Amazon River"
+      }
+    ],
+    "8": [
+      {
+        "date": 15,
+        "title": "Festival de la Selva",
+        "description": "Dance, music, and cuisine from across the jungle region.",
+        "location": "Centro de Convenciones El Pardo"
+      }
+    ],
+    "9": [
+      {
+        "date": 3,
+        "title": "Día del Delfín Rosado",
+        "description": "Celebration and awareness campaign for pink river dolphins.",
+        "location": "Centro de Rescate Amazónico"
+      }
+    ],
+    "10": [
+      {
+        "date": 13,
+        "title": "Iquitos Gastronomic Festival",
+        "description": "Experience jungle flavors, local ingredients, and live cooking.",
+        "location": "Plaza Sargento Lores"
+      }
+    ],
+    "11": [
+      {
+        "date": 5,
+        "title": "Ayahuasca Cultural Gathering",
+        "description": "Discussion panels and ceremonies focused on traditional Amazonian medicine.",
+        "location": "Outside Iquitos Retreat Centers"
+      }
+    ],
+    "12": [
+      {
+        "date": 18,
+        "title": "Amazon Christmas Boat Parade",
+        "description": "Decorated boats float through Iquitos spreading holiday joy.",
+        "location": "Rio Itaya"
+      }
+    ]
+  }
+}
+    
+    
+ 
+  
