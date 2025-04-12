@@ -1079,9 +1079,25 @@
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   line-height: 1.6;
+  opacity: 0;
+  animation: fadeIn 2s forwards; /* This makes the element fade in */
+  transition: opacity 1s ease;
 }
 
 .phrase-card p {
   margin-bottom: 0.6rem;
   font-size: 1.1rem;
 }
+/* Animation Keyframes */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
