@@ -9,7 +9,7 @@ export default defineConfig({
     outDir: "./dist",
     rollupOptions: {
       input: {
-        Index: resolve(__dirname, "src/index.html"),
+        Index: resolve(__dirname, "PeruTravelAPI/src/index.html"),
         Destinations: resolve(__dirname, "src/pages/destinations.html"),
         Attractions: resolve(__dirname, "src/pages/attractions.html"),
         Recommendations: resolve(__dirname, "src/pages/recommendations.html"),
