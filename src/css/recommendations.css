@@ -1,0 +1,87 @@
+/* recommendations.css */
+
+/* Container for the whole section */
+main {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Filters */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.filters label {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.filters select {
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Grid Layout for Cards */
+.restaurants-container,
+.attractions-container,
+.recommendations-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Card Style */
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card-content h3 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.card-content p {
+  margin: 0.5rem 0;
+  color: #555;
+}
+
+.card-content .cost {
+  font-weight: bold;
+  color: #27ae60;
+}
+
+.card-content a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #2980b9;
+  text-decoration: none;
+}
+
+.card-content a:hover {
+  text-decoration: underline;
+}

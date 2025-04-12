@@ -16,6 +16,11 @@ async function loadCityInfo() {
     return;
   }
 
+  // 👉 ADD THIS PART to dynamically set the links
+  document.querySelector('.link-restaurants').href = `recommendations.html?city=${city}#restaurants`;
+  document.querySelector('.link-attractions').href = `recommendations.html?city=${city}#attractions`;
+  document.querySelector('.link-recommendations').href = `recommendations.html?city=${city}#tours`;
+
   const cityData = await fetchCityData(city); // Fetch city data dynamically
   
   if (!cityData) {
@@ -94,3 +99,17 @@ function setupCarousel() {
 
 // Call the function to load city info when the page is loaded
 loadCityInfo();
+// Update recommendation links dynamically
+function updateRecommendationLinks() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const city = urlParams.get('city');
+
+  if (!city) return;
+
+  document.querySelector('.link-restaurants').href = `restaurants.html?city=${city}`;
+  document.querySelector('.link-attractions').href = `attractions.html?city=${city}`;
+  document.querySelector('.link-recommendations').href = `tours.html?city=${city}`;
+}
+
+// Call this after DOM is loaded
+updateRecommendationLinks();

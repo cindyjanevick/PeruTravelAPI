@@ -40,6 +40,7 @@ function loadHeader() {
       // Call the function to adjust the logo path after the header is loaded
       adjustLogoPath(); 
       addHamburgerToggleEvent();
+      updateNavLinks(); // ✅ Add this here after header is injected
     })
     .catch(error => console.error('Error loading header:', error));
 
@@ -71,3 +72,24 @@ document.addEventListener('DOMContentLoaded', () => {
   loadHeader();
   loadFooter();
 });
+// Get city from URL
+function getCityFromURL() {
+  const urlParams = new URLSearchParams(window.location.search);
+  return urlParams.get('city');
+}
+
+// Update nav links dynamically
+function updateNavLinks() {
+  const city = getCityFromURL();
+  if (city) {
+    const linkDestinations = document.getElementById('link-destinations');
+    const linkAttractions = document.getElementById('link-attractions');
+    const linkRestaurants = document.getElementById('link-restaurants');
+    const linkRecommendations = document.getElementById('link-recommendations');
+
+    if (linkDestinations) linkDestinations.href = `destinations.html?city=${city}`;
+    if (linkAttractions) linkAttractions.href = `attractions.html?city=${city}`;
+    if (linkRestaurants) linkRestaurants.href = `restaurants.html?city=${city}`;
+    if (linkRecommendations) linkRecommendations.href = `recommendations.html?city=${city}`;
+  }
+}

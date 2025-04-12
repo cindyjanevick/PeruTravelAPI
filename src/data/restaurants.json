@@ -1,0 +1,307 @@
+{
+    "lima": [
+      {
+        "name": "Central Restaurante",
+        "address": "Av. Pedro de Osma 301, Barranco",
+        "description": "Award-winning fine dining that showcases Peru’s biodiversity.",
+        "cost": "$$$",
+        "cuisine": "Contemporary Peruvian",
+        "image": "central.webp",
+        "url": "https://www.centralrestaurante.com.pe/"
+      },
+      {
+        "name": "La Mar",
+        "address": "Av. La Mar 770, Miraflores",
+        "description": "Famous for its fresh ceviche and seafood platters.",
+        "cost": "$$",
+        "cuisine": "Seafood",
+        "image": "lamar.webp",
+        "url": "https://www.lamarcebicheria.com/"
+      },
+      {
+        "name": "Pardos Chicken",
+        "address": "Av. Benavides 730, Miraflores",
+        "description": "Popular chain known for its rotisserie chicken.",
+        "cost": "$",
+        "cuisine": "Peruvian Rotisserie",
+        "image": "pardos.webp",
+        "url": "https://www.pardoschicken.pe/"
+      },
+      {
+        "name": "Maido",
+        "address": "Calle San Martin 399, Miraflores",
+        "description": "Top Nikkei cuisine combining Japanese and Peruvian flavors.",
+        "cost": "$$$",
+        "cuisine": "Nikkei",
+        "image": "maido.webp",
+        "url": "https://www.maido.pe/"
+      }
+    ],
+    "cusco": [
+      {
+        "name": "Cicciolina",
+        "address": "Calle Triunfo 393, Cusco",
+        "description": "Charming tapas bar and fine dining in the historic center.",
+        "cost": "$$$",
+        "cuisine": "Fusion",
+        "image": "cicciolina.webp",
+        "url": "https://www.cicciolinacusco.com/"
+      },
+      {
+        "name": "Green Point",
+        "address": "Calle Carmen Bajo 235",
+        "description": "One of the top vegan restaurants in Cusco.",
+        "cost": "$$",
+        "cuisine": "Vegan",
+        "image": "greenpoint.webp",
+        "url": "https://www.greenpointcusco.com/"
+      },
+      {
+        "name": "Chicha por Gastón Acurio",
+        "address": "Calle Plaza Regocijo 261",
+        "description": "Traditional Andean dishes with a modern twist.",
+        "cost": "$$",
+        "cuisine": "Modern Peruvian",
+        "image": "chicha.webp",
+        "url": "https://www.chicha.com.pe/"
+      },
+      {
+        "name": "Pacha Papa",
+        "address": "Plazoleta San Blas 120",
+        "description": "Cozy spot offering wood-fired Andean dishes.",
+        "cost": "$$",
+        "cuisine": "Andean",
+        "image": "pachapapa.webp",
+        "url": "https://www.pachapapacusco.com/"
+      }
+    ],
+    "arequipa": [
+      {
+        "name": "Chicha Arequipa",
+        "address": "Santa Catalina 210",
+        "description": "Refined versions of traditional Arequipeño cuisine.",
+        "cost": "$$",
+        "cuisine": "Peruvian",
+        "image": "chichaarequipa.webp",
+        "url": "https://www.chicha.com.pe/"
+      },
+      {
+        "name": "Zig Zag",
+        "address": "Calle Zela 210",
+        "description": "Alpaca steaks and volcanic stone grills in a historic house.",
+        "cost": "$$",
+        "cuisine": "Fusion",
+        "image": "zigzag.webp",
+        "url": "https://www.zigzagrestaurant.com/"
+      },
+      {
+        "name": "La Nueva Palomino",
+        "address": "Leoncio Prado 122, Yanahuara",
+        "description": "Authentic Arequipa picantería experience.",
+        "cost": "$",
+        "cuisine": "Traditional Arequipeña",
+        "image": "palomino.webp",
+        "url": "https://lanuevapalomino.com/"
+      },
+      {
+        "name": "Hatunpa",
+        "address": "Ugarte 208",
+        "description": "Creative potato-based dishes with local toppings.",
+        "cost": "$",
+        "cuisine": "Peruvian",
+        "image": "hatunpa.webp",
+        "url": "https://www.hatunpa.pe/"
+      }
+    ],
+    "trujillo": [
+      {
+        "name": "El Mochica",
+        "address": "Av. Larco 857",
+        "description": "Trujillo classic known for traditional coastal flavors.",
+        "cost": "$$",
+        "cuisine": "Northern Peruvian",
+        "image": "mochica.webp",
+        "url": "#"
+      },
+      {
+        "name": "Casona Deza",
+        "address": "Jirón Independencia 630",
+        "description": "Colonial charm with contemporary Peruvian plates.",
+        "cost": "$$",
+        "cuisine": "Fusion",
+        "image": "casonadeza.webp",
+        "url": "#"
+      },
+      {
+        "name": "Emiliana",
+        "address": "Av. El Golf 724",
+        "description": "Top ceviche and grilled seafood in a modern setting.",
+        "cost": "$$",
+        "cuisine": "Seafood",
+        "image": "emiliana.webp",
+        "url": "#"
+      },
+      {
+        "name": "Squalo’s",
+        "address": "Av. América Sur 1583",
+        "description": "Simple but popular spot for ceviche and cold beer.",
+        "cost": "$",
+        "cuisine": "Seafood",
+        "image": "squalos.webp",
+        "url": "#"
+      }
+    ],
+    "ica": [
+      {
+        "name": "El Huarango",
+        "address": "Panamericana Sur km 300",
+        "description": "Spacious garden setting with traditional Iqueño food.",
+        "cost": "$$",
+        "cuisine": "Iqueña",
+        "image": "huarango.webp",
+        "url": "#"
+      },
+      {
+        "name": "Restaurante El Otro Pez",
+        "address": "Calle Bolívar 845",
+        "description": "Seafood and criollo dishes with a local twist.",
+        "cost": "$",
+        "cuisine": "Seafood",
+        "image": "otropez.webp",
+        "url": "#"
+      },
+      {
+        "name": "Oasis de América",
+        "address": "Laguna Huacachina",
+        "description": "Dine next to the famous Huacachina oasis.",
+        "cost": "$$",
+        "cuisine": "International",
+        "image": "huacachina.webp",
+        "url": "#"
+      },
+      {
+        "name": "La Olla de Juanita",
+        "address": "Av. San Martín 562",
+        "description": "Local institution serving hearty homemade meals.",
+        "cost": "$",
+        "cuisine": "Peruvian",
+        "image": "juanita.webp",
+        "url": "#"
+      }
+    ],
+    "puno": [
+      {
+        "name": "Mojsa Restaurant",
+        "address": "Jirón Lima 635",
+        "description": "Popular tourist restaurant with Lake Titicaca views.",
+        "cost": "$$",
+        "cuisine": "Peruvian",
+        "image": "mojsa.webp",
+        "url": "#"
+      },
+      {
+        "name": "La Table del’ Inca",
+        "address": "Jirón Lima 348",
+        "description": "Elegant dining with an Andean-European fusion menu.",
+        "cost": "$$$",
+        "cuisine": "Fusion",
+        "image": "tableinca.webp",
+        "url": "#"
+      },
+      {
+        "name": "Balcones de Puno",
+        "address": "Jirón Libertad 354",
+        "description": "Dinner and folklore shows in a colonial setting.",
+        "cost": "$$",
+        "cuisine": "Traditional",
+        "image": "balcones.webp",
+        "url": "#"
+      },
+      {
+        "name": "Loving Hut",
+        "address": "Jirón Deza 635",
+        "description": "Vegan-friendly meals in a casual atmosphere.",
+        "cost": "$",
+        "cuisine": "Vegan",
+        "image": "lovinghut.webp",
+        "url": "#"
+      }
+    ],
+    "cajamarca": [
+      {
+        "name": "Salas",
+        "address": "Jirón Dos de Mayo 322",
+        "description": "Fine dining rooted in traditional Cajamarquino ingredients.",
+        "cost": "$$",
+        "cuisine": "Peruvian",
+        "image": "salas.webp",
+        "url": "#"
+      },
+      {
+        "name": "Paprika",
+        "address": "Av. Hoyos Rubio 104",
+        "description": "Modern dishes with regional flavors inside the Costa del Sol Hotel.",
+        "cost": "$$",
+        "cuisine": "Fusion",
+        "image": "paprika.webp",
+        "url": "#"
+      },
+      {
+        "name": "Campestre El Padrino",
+        "address": "Salida a Jesús, Cajamarca",
+        "description": "Great for families, known for grilled meats and open space.",
+        "cost": "$$",
+        "cuisine": "Grill",
+        "image": "elpadrino.webp",
+        "url": "#"
+      },
+      {
+        "name": "Qhapac Ñan",
+        "address": "Jirón Cruz Blanca 156",
+        "description": "Affordable and authentic regional menu.",
+        "cost": "$",
+        "cuisine": "Traditional Cajamarquina",
+        "image": "qhapaqnan.webp",
+        "url": "#"
+      }
+    ],
+    "iquitos": [
+      {
+        "name": "Al Frío y al Fuego",
+        "address": "Isla del Amor (boat access only)",
+        "description": "Floating restaurant with Amazonian fusion cuisine.",
+        "cost": "$$$",
+        "cuisine": "Amazonian Fusion",
+        "image": "frioyfuego.webp",
+        "url": "#"
+      },
+      {
+        "name": "Dawn on the Amazon Café",
+        "address": "Malecón Tarapacá 435",
+        "description": "Healthy menu and jungle views perfect for tourists.",
+        "cost": "$$",
+        "cuisine": "International",
+        "image": "dawnamazon.webp",
+        "url": "#"
+      },
+      {
+        "name": "El Mijano",
+        "address": "Av. La Marina 456",
+        "description": "Rustic spot with Amazonian fish and plantain dishes.",
+        "cost": "$",
+        "cuisine": "Amazonian",
+        "image": "elmijano.webp",
+        "url": "#"
+      },
+      {
+        "name": "Aris Burger",
+        "address": "Calle Nauta 234",
+        "description": "Local burger favorite with jungle-style fries.",
+        "cost": "$",
+        "cuisine": "Fast Food",
+        "image": "arisburger.webp",
+        "url": "#"
+      }
+    ]
+  }
+  

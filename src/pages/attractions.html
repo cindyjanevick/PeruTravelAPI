@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Restaurants</title>
+  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="../css/recommendations.css" />
+</head>
+<body>
+    <div class="container" id="header-container"></div>
+
+  <main>
+    
+    <h1 class="page-title">🗺️ Attractions in <span id="city-name"></span></h1>
+    <div class="filters">
+      <label for="attraction-cost">Filter by Cost:</label>
+      <select id="attraction-cost">
+        <option value="all">All</option>
+        <option value="$">$</option>
+        <option value="$$">$$</option>
+        <option value="$$$">$$$</option>
+      </select>
+    </div>
+    <div class="card-container" id="attraction-cards"></div>
+
+    
+  </main>
+
+  <div class="container" id="footer-container"></div>
+
+  <script type="module" src="../js/attractions.js" defer></script>
+  <script type="module" src="../js/headerFooter.js" defer></script>
+  <script type="module" src="../js/nav.js" defer></script>
+  <script type="module" src="../js/navLinks.js" defer></script>
+</body>
+</html>

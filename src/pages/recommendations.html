@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Recommendations</title>
+  <link rel="stylesheet" href="../css/recommendations.css" />
+  <link  rel="stylesheet" href="../css/main.css"/>
+</head>
+<body>
+    <div class="container" id="header-container"></div>
+
+
+  <main>
+    <h1 class="page-title">🌟 Tour Recommendations in <span id="city-name"></span></h1>
+    <div class="filters">
+      <label for="tour-cost">Filter by Cost:</label>
+      <select id="tour-cost">
+        <option value="all">All</option>
+        <option value="$">$</option>
+        <option value="$$">$$</option>
+        <option value="$$$">$$$</option>
+      </select>
+
+      <label for="tour-length">Filter by Length:</label>
+      <select id="tour-length">
+        <option value="all">All</option>
+        <option value="Half-day">Half-day</option>
+        <option value="Full-day">Full-day</option>
+        <option value="Multi-day">Multi-day</option>
+      </select>
+    </div>
+
+    <div class="card-container" id="tour-cards"></div>
+    </section>
+  </main>
+  <div class="container" id="footer-container"></div>
+  <script type="module" src="../js/recommendations.js" defer></script>
+  <script type="module" src="../js/headerFooter.js" defer></script>
+  <script type="module" src="../js/nav.js" defer></script>
+  <script type="module" src="../js/navLinks.js" defer></script>
+  
+</body>
+</html>

@@ -1,0 +1,187 @@
+{
+    "lima": [
+      {
+        "name": "Lima City Walking Tour",
+        "description": "Explore the historical downtown with a local guide.",
+        "cost": "$",
+        "length": "half-day",
+        "image": "limatour.webp"
+      },
+      {
+        "name": "Pachacamac Archaeological Tour",
+        "description": "Half-day visit to ancient Inca and pre-Inca site near Lima.",
+        "cost": "$$",
+        "length": "half-day",
+        "image": "pachacamac.webp"
+      },
+      {
+        "name": "Paracas & Ballestas Islands Tour",
+        "description": "See sea lions and penguins on a full-day coastal trip.",
+        "cost": "$$$",
+        "length": "full-day",
+        "image": "paracas.webp"
+      }
+    ],
+    "cusco": [
+      {
+        "name": "Machu Picchu Day Trip",
+        "description": "Train ride and guided visit to the iconic Inca citadel.",
+        "cost": "$$$",
+        "length": "full-day",
+        "image": "machupicchu.webp"
+      },
+      {
+        "name": "Sacred Valley Tour",
+        "description": "Explore Pisac, Ollantaytambo, and Urubamba.",
+        "cost": "$$",
+        "length": "full-day",
+        "image": "sacredvalley.webp"
+      },
+      {
+        "name": "Rainbow Mountain Trek",
+        "description": "Colorful mountain hike above 5,000m.",
+        "cost": "$$",
+        "length": "full-day",
+        "image": "rainbowmountain.webp"
+      }
+    ],
+    "arequipa": [
+      {
+        "name": "Colca Canyon 2-Day Tour",
+        "description": "Overnight adventure to see condors and Andean villages.",
+        "cost": "$$$",
+        "length": "multi-day",
+        "image": "colca2day.webp"
+      },
+      {
+        "name": "City & Monastery Tour",
+        "description": "Intro to Arequipa’s historic sites and Santa Catalina.",
+        "cost": "$",
+        "length": "half-day",
+        "image": "arequipatour.webp"
+      },
+      {
+        "name": "Sabandía Mill & Volcano View",
+        "description": "Scenic trip through countryside villages.",
+        "cost": "$$",
+        "length": "half-day",
+        "image": "sabandia.webp"
+      }
+    ],
+    "trujillo": [
+      {
+        "name": "Chan Chan & Huanchaco Tour",
+        "description": "Visit the ancient city and enjoy surfers' beach.",
+        "cost": "$$",
+        "length": "half-day",
+        "image": "huanchaco.webp"
+      },
+      {
+        "name": "El Brujo & Lady of Cao Tour",
+        "description": "Travel north to see Moche mummies and murals.",
+        "cost": "$$",
+        "length": "full-day",
+        "image": "elbrujo.webp"
+      },
+      {
+        "name": "Trujillo Colonial City Tour",
+        "description": "Wander historic streets and churches with a guide.",
+        "cost": "$",
+        "length": "half-day",
+        "image": "trujillotour.webp"
+      }
+    ],
+    "ica": [
+      {
+        "name": "Huacachina Sandboarding & Buggy Ride",
+        "description": "Thrill ride through desert dunes.",
+        "cost": "$$",
+        "length": "half-day",
+        "image": "sandboarding.webp"
+      },
+      {
+        "name": "Nazca Lines Flight",
+        "description": "Scenic flight over ancient geoglyphs.",
+        "cost": "$$$",
+        "length": "half-day",
+        "image": "nazca.webp"
+      },
+      {
+        "name": "Pisco Vineyard Tour",
+        "description": "Taste local wine and pisco at family-run vineyards.",
+        "cost": "$",
+        "length": "half-day",
+        "image": "piscotour.webp"
+      }
+    ],
+    "puno": [
+      {
+        "name": "Lake Titicaca Full-Day Tour",
+        "description": "Uros and Taquile island visit with lunch.",
+        "cost": "$$",
+        "length": "full-day",
+        "image": "titicaca.webp"
+      },
+      {
+        "name": "Llachón Cultural Experience",
+        "description": "Meet locals and stay in a family home.",
+        "cost": "$$",
+        "length": "multi-day",
+        "image": "llachon.webp"
+      },
+      {
+        "name": "Puno City Tour",
+        "description": "Visit historic buildings and viewpoints.",
+        "cost": "$",
+        "length": "half-day",
+        "image": "punotour.webp"
+      }
+    ],
+    "cajamarca": [
+      {
+        "name": "Otuzco & Tres Molinos Tour",
+        "description": "Funerary niches, gardens, and cheese tasting.",
+        "cost": "$",
+        "length": "half-day",
+        "image": "tresmolinos.webp"
+      },
+      {
+        "name": "Granja Porcón Visit",
+        "description": "Eco-tourism and alpaca encounters in highlands.",
+        "cost": "$$",
+        "length": "full-day",
+        "image": "porcon.webp"
+      },
+      {
+        "name": "Inca Baths Spa Session",
+        "description": "Soak in thermal pools and enjoy massages.",
+        "cost": "$",
+        "length": "half-day",
+        "image": "incabaths.webp"
+      }
+    ],
+    "iquitos": [
+      {
+        "name": "Amazon River Boat Tour",
+        "description": "Wildlife spotting and jungle experience.",
+        "cost": "$$",
+        "length": "half-day",
+        "image": "amazonriver.webp"
+      },
+      {
+        "name": "Pacaya Samiria Multi-Day Adventure",
+        "description": "Deep jungle exploration with camping.",
+        "cost": "$$$",
+        "length": "multi-day",
+        "image": "pacaya.webp"
+      },
+      {
+        "name": "City Tour & Market",
+        "description": "Intro to Iquitos culture and markets.",
+        "cost": "$",
+        "length": "half-day",
+        "image": "iquitostour.webp"
+      }
+    ]
+  }
+  

@@ -1,0 +1,163 @@
+{
+    "lima": [
+      {
+        "name": "Larco Museum",
+        "description": "Pre-Columbian art in a beautiful 18th-century mansion.",
+        "cost": "$$",
+        "image": "larcomuseum.webp"
+      },
+      {
+        "name": "Circuito Mágico del Agua",
+        "description": "Fountain park with light shows and water tunnels.",
+        "cost": "$",
+        "image": "magicwater.webp"
+      },
+      {
+        "name": "Huaca Pucllana",
+        "description": "Ancient adobe pyramid in the heart of Miraflores.",
+        "cost": "$",
+        "image": "huacapucllana.webp"
+      }
+    ],
+    "cusco": [
+      {
+        "name": "Sacsayhuamán",
+        "description": "Massive Inca stone fortress overlooking Cusco.",
+        "cost": "$$",
+        "image": "sacsayhuaman.webp"
+      },
+      {
+        "name": "Qorikancha",
+        "description": "Sun Temple ruins beneath a Spanish colonial church.",
+        "cost": "$",
+        "image": "qorikancha.webp"
+      },
+      {
+        "name": "San Pedro Market",
+        "description": "Lively market for souvenirs, juice, and local life.",
+        "cost": "$",
+        "image": "sanpedromarket.webp"
+      }
+    ],
+    "arequipa": [
+      {
+        "name": "Santa Catalina Monastery",
+        "description": "Colorful convent with peaceful alleys and chapels.",
+        "cost": "$$",
+        "image": "santacatalina.webp"
+      },
+      {
+        "name": "Colca Canyon",
+        "description": "One of the world’s deepest canyons and home of condors.",
+        "cost": "$$$",
+        "image": "colcacanyon.webp"
+      },
+      {
+        "name": "Plaza de Armas",
+        "description": "Historic center surrounded by colonial buildings.",
+        "cost": "$",
+        "image": "plazaarmasarequipa.webp"
+      }
+    ],
+    "trujillo": [
+      {
+        "name": "Chan Chan",
+        "description": "Largest pre-Columbian city in South America.",
+        "cost": "$$",
+        "image": "chanchan.webp"
+      },
+      {
+        "name": "Huacas del Sol y de la Luna",
+        "description": "Ancient Moche pyramids with murals.",
+        "cost": "$$",
+        "image": "huacas.webp"
+      },
+      {
+        "name": "Historic Centre",
+        "description": "Colorful streets and colonial mansions.",
+        "cost": "$",
+        "image": "trujillocenter.webp"
+      }
+    ],
+    "ica": [
+      {
+        "name": "Huacachina Oasis",
+        "description": "Desert lagoon perfect for sandboarding and buggy rides.",
+        "cost": "$$",
+        "image": "huacachina.webp"
+      },
+      {
+        "name": "Tacama Vineyard",
+        "description": "One of the oldest wineries in South America.",
+        "cost": "$$",
+        "image": "tacama.webp"
+      },
+      {
+        "name": "Regional Museum of Ica",
+        "description": "Artifacts from Paracas and Nazca cultures.",
+        "cost": "$",
+        "image": "icamuseum.webp"
+      }
+    ],
+    "puno": [
+      {
+        "name": "Uros Floating Islands",
+        "description": "Man-made reed islands on Lake Titicaca.",
+        "cost": "$$",
+        "image": "uros.webp"
+      },
+      {
+        "name": "Taquile Island",
+        "description": "UNESCO-recognized textile tradition and lake views.",
+        "cost": "$$",
+        "image": "taquile.webp"
+      },
+      {
+        "name": "Puno Cathedral",
+        "description": "Baroque cathedral in Puno’s main square.",
+        "cost": "$",
+        "image": "punocathedral.webp"
+      }
+    ],
+    "cajamarca": [
+      {
+        "name": "Ventanillas de Otuzco",
+        "description": "Ancient funerary niches carved into volcanic rock.",
+        "cost": "$",
+        "image": "ventanillas.webp"
+      },
+      {
+        "name": "Cuarto del Rescate",
+        "description": "Famous ransom room of the last Inca emperor.",
+        "cost": "$",
+        "image": "cuartorescate.webp"
+      },
+      {
+        "name": "Baños del Inca",
+        "description": "Thermal baths used since Inca times.",
+        "cost": "$",
+        "image": "banosinca.webp"
+      }
+    ],
+    "iquitos": [
+      {
+        "name": "Belén Market",
+        "description": "Bustling Amazonian market full of jungle products.",
+        "cost": "$",
+        "image": "belenmarket.webp"
+      },
+      {
+        "name": "Amazon Rescue Center (CREA)",
+        "description": "Manatee rescue and jungle education center.",
+        "cost": "$$",
+        "image": "crea.webp"
+      },
+      {
+        "name": "Plaza de Armas",
+        "description": "Colonial plaza with iron house designed by Eiffel.",
+        "cost": "$",
+        "image": "iquitosplaza.webp"
+      }
+    ]
+  }
+  
