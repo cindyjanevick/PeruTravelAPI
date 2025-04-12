@@ -10,6 +10,10 @@ export default defineConfig({
     rollupOptions: {
       input: {
         Index: resolve(__dirname, "src/index.html"),
+        Destinations: resolve(__dirname, "src/pages/destinations.html"),
+        Attractions: resolve(__dirname, "src/pages/attractions.html"),
+        Recommendations: resolve(__dirname, "src/pages/recommendations.html"),
+        Restaurants: resolve(__dirname, "src/pages/restaurants.html"),
       },
     },
   },

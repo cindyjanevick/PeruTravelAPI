@@ -81,6 +81,7 @@ function getCityFromURL() {
 // Update nav links dynamically
 function updateNavLinks() {
   const city = getCityFromURL();
+  const basePath = '/PeruTravelAPI/src/pages/';
   if (city) {
     const linkDestinations = document.getElementById('link-destinations');
     const linkAttractions = document.getElementById('link-attractions');
