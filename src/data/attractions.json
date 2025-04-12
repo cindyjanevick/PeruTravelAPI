@@ -84,7 +84,7 @@
         "name": "Huacachina Oasis",
         "description": "Desert lagoon perfect for sandboarding and buggy rides.",
         "cost": "$$",
-        "image": "huacachina.webp"
+        "image": "huacachina1.webp"
       },
       {
         "name": "Tacama Vineyard",
@@ -136,7 +136,7 @@
         "name": "Baños del Inca",
         "description": "Thermal baths used since Inca times.",
         "cost": "$",
-        "image": "banosinca.webp"
+        "image": "incabaths.webp"
       }
     ],
     "iquitos": [

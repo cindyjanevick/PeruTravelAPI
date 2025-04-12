@@ -72,7 +72,7 @@
         "cost": "$$",
         "cuisine": "Andean",
         "image": "pachapapa.webp",
-        "url": "https://www.pachapapacusco.com/"
+        "url": "https://cuscorestaurants.com//"
       }
     ],
     "arequipa": [
@@ -116,12 +116,12 @@
     "trujillo": [
       {
         "name": "El Mochica",
-        "address": "Av. Larco 857",
+        "address": "Jirón Independencia 610",
         "description": "Trujillo classic known for traditional coastal flavors.",
         "cost": "$$",
         "cuisine": "Northern Peruvian",
         "image": "mochica.webp",
-        "url": "#"
+        "url": "https://www.elmochica.com.pe/"
       },
       {
         "name": "Casona Deza",
@@ -130,45 +130,45 @@
         "cost": "$$",
         "cuisine": "Fusion",
         "image": "casonadeza.webp",
-        "url": "#"
+        "url": "https://www.facebook.com/CasonaDeza/"
       },
       {
-        "name": "Emiliana",
-        "address": "Av. El Golf 724",
-        "description": "Top ceviche and grilled seafood in a modern setting.",
+        "name": "El Medievo",
+        "address": "Pl. Mayor, 28",
+        "description": "Modern Taperia, beer place.",
         "cost": "$$",
-        "cuisine": "Seafood",
+        "cuisine": "Taperia",
         "image": "emiliana.webp",
-        "url": "#"
+        "url": "https://www.elmedievo.com/"
       },
       {
         "name": "Squalo’s",
-        "address": "Av. América Sur 1583",
+        "address": "Díaz de Cienfuegos 244",
         "description": "Simple but popular spot for ceviche and cold beer.",
         "cost": "$",
         "cuisine": "Seafood",
         "image": "squalos.webp",
-        "url": "#"
+        "url": "https://www.squalosseafoodrestaurant.com/"
       }
     ],
     "ica": [
       {
-        "name": "El Huarango",
-        "address": "Panamericana Sur km 300",
-        "description": "Spacious garden setting with traditional Iqueño food.",
+        "name": "El Huarango Grill",
+        "address": "Abraham Valdelomar 611",
+        "description": "Best grill in Ica.",
         "cost": "$$",
         "cuisine": "Iqueña",
         "image": "huarango.webp",
-        "url": "#"
+        "url": "https://www.facebook.com/profile.php?id=100057056966537"
       },
       {
-        "name": "Restaurante El Otro Pez",
-        "address": "Calle Bolívar 845",
-        "description": "Seafood and criollo dishes with a local twist.",
-        "cost": "$",
-        "cuisine": "Seafood",
-        "image": "otropez.webp",
-        "url": "#"
+        "name": "Tambo de Tacama",
+        "address": "Av. Camino Real 390 – La Tinguiña",
+        "description": "Peruvian and regional food.",
+        "cost": "$$",
+        "cuisine": "Andean",
+        "image": "tacama.webp",
+        "url": "https://www.tambodetacama.com/"
       },
       {
         "name": "Oasis de América",
@@ -177,7 +177,7 @@
         "cost": "$$",
         "cuisine": "International",
         "image": "huacachina.webp",
-        "url": "#"
+        "url": "https://www.oasisdeamerica.com/"
       },
       {
         "name": "La Olla de Juanita",
@@ -186,7 +186,7 @@
         "cost": "$",
         "cuisine": "Peruvian",
         "image": "juanita.webp",
-        "url": "#"
+        "url": "https://laolladejuanita.com/"
       }
     ],
     "puno": [
@@ -197,16 +197,16 @@
         "cost": "$$",
         "cuisine": "Peruvian",
         "image": "mojsa.webp",
-        "url": "#"
+        "url": "https://mojsarestaurante.com/"
       },
       {
         "name": "La Table del’ Inca",
-        "address": "Jirón Lima 348",
+        "address": "239 Jr. Ancash, Puno",
         "description": "Elegant dining with an Andean-European fusion menu.",
-        "cost": "$$$",
+        "cost": "$$",
         "cuisine": "Fusion",
         "image": "tableinca.webp",
-        "url": "#"
+        "url": "https://www.facebook.com/latabledelinca/"
       },
       {
         "name": "Balcones de Puno",
@@ -215,7 +215,7 @@
         "cost": "$$",
         "cuisine": "Traditional",
         "image": "balcones.webp",
-        "url": "#"
+        "url": "https://www.facebook.com/BalconesPuno/?locale=es_LA"
       },
       {
         "name": "Loving Hut",
@@ -224,7 +224,7 @@
         "cost": "$",
         "cuisine": "Vegan",
         "image": "lovinghut.webp",
-        "url": "#"
+        "url": "https://www.lovinghut.com/pe/"
       }
     ],
     "cajamarca": [
@@ -235,7 +235,7 @@
         "cost": "$$",
         "cuisine": "Peruvian",
         "image": "salas.webp",
-        "url": "#"
+        "url": "https://www.facebook.com/restaurantsalas1947/"
       },
       {
         "name": "Paprika",
@@ -244,16 +244,16 @@
         "cost": "$$",
         "cuisine": "Fusion",
         "image": "paprika.webp",
-        "url": "#"
+        "url": "https://www.facebook.com/PaprikaRestauranteCajamarca/"
       },
       {
-        "name": "Campestre El Padrino",
-        "address": "Salida a Jesús, Cajamarca",
-        "description": "Great for families, known for grilled meats and open space.",
+        "name": "El Pez Loco",
+        "address": "Jirón Cruz de Piedra 631",
+        "description": "Ceviche and grill.",
         "cost": "$$",
-        "cuisine": "Grill",
-        "image": "elpadrino.webp",
-        "url": "#"
+        "cuisine": "Seafood",
+        "image": "pezloco.webp",
+        "url": "https://www.elpezloco.com/"
       },
       {
         "name": "Qhapac Ñan",
@@ -262,7 +262,7 @@
         "cost": "$",
         "cuisine": "Traditional Cajamarquina",
         "image": "qhapaqnan.webp",
-        "url": "#"
+        "url": "https://www.facebook.com/QhapaqRestaurant/"
       }
     ],
     "iquitos": [
@@ -273,7 +273,7 @@
         "cost": "$$$",
         "cuisine": "Amazonian Fusion",
         "image": "frioyfuego.webp",
-        "url": "#"
+        "url": "https://alfrioyalfuego.com/"
       },
       {
         "name": "Dawn on the Amazon Café",
@@ -281,8 +281,8 @@
         "description": "Healthy menu and jungle views perfect for tourists.",
         "cost": "$$",
         "cuisine": "International",
-        "image": "dawnamazon.webp",
-        "url": "#"
+        "image": "amazoncafe.webp",
+        "url": "https://www.facebook.com/dawn.on.the.amazon.cafe/"
       },
       {
         "name": "El Mijano",
@@ -291,7 +291,7 @@
         "cost": "$",
         "cuisine": "Amazonian",
         "image": "elmijano.webp",
-        "url": "#"
+        "url": "https://www.facebook.com/elmijano/"
       },
       {
         "name": "Aris Burger",
@@ -300,7 +300,7 @@
         "cost": "$",
         "cuisine": "Fast Food",
         "image": "arisburger.webp",
-        "url": "#"
+        "url": "https://www.facebook.com/ARISBURGERIQUITOS/"
       }
     ]
   }
