@@ -10,6 +10,17 @@ document.addEventListener('DOMContentLoaded', () => {
   tripList.id = 'tripList';
   document.querySelector('.travel-planner').appendChild(tripList);
 
+  // Get today's date in YYYY-MM-DD format for the start date restriction
+  const today = new Date().toISOString().split('T')[0];
+  startDate.min = today;  // Start date cannot be in the past
+  
+  // Function to update the end date minimum value based on the start date
+  startDate.addEventListener('change', () => {
+    const start = new Date(startDate.value);
+    const nextDay = new Date(start.setDate(start.getDate() + 1));
+    endDate.min = nextDay.toISOString().split('T')[0]; // End date should be at least 1 day after start date
+  });
+
   // Load from localStorage
   function loadTrips() {
     tripList.innerHTML = ''; // clear before adding
@@ -48,12 +59,13 @@ document.addEventListener('DOMContentLoaded', () => {
       notes: notes.value.trim()
     };
 
+    // Load existing trips from localStorage, add the new one, and save it again
     const trips = JSON.parse(localStorage.getItem('trips')) || [];
     trips.push(newTrip);
     localStorage.setItem('trips', JSON.stringify(trips));
 
     form.reset();
-    loadTrips();
+    loadTrips();  // Re-load trips to reflect the new addition
   });
 
   loadTrips(); // Initial load
